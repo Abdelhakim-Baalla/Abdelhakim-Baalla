@@ -172,14 +172,6 @@ while(!success) {
   <img src="https://github-contributor-stats.vercel.app/api?username=Abdelhakim-baalla&limit=5&theme=radical&combine_all_yearly_contributions=true&hide_border=true" alt="Top Contributed Repos" />
 </div>
 
----
-
-<div align="center">
-  
-  ### 💭 Random Dev Quote
-  ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-</div>
 
 ---
 
