@@ -1,24 +1,95 @@
-# 💫 About Me:
-🌱 I’m currently learning at YouCode Maroc
+# 👋 Hello, I'm Abdelhakim Baalla!
 
+> Full-stack developer passionate about creating beautiful, functional web experiences.
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/abdelhakimbaalla) [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/29011477) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/Abdelhakim99891) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@Dinocrafting) 
+I'm currently enhancing my skills at **YouCode Maroc** and exploring new technologies to build innovative solutions.
 
-# 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=for-the-badge&logo=Adobe%20Premiere%20Pro&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Godot Engine](https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Abdelhakim-baalla&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Abdelhakim-baalla&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelhakim-baalla&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+## 🚀 Tech Journey
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Abdelhakim-baalla&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+```javascript
+const abdelhakim = {
+  languages: ["JavaScript", "PHP", "Java", "HTML/CSS", "C"],
+  frameworks: ["Angular", "Laravel", "Spring", "TailwindCSS"],
+  database: ["MySQL"],
+  tools: ["Git", "Docker", "Postman", "Figma", "Adobe Photoshop", "Adobe Premiere Pro", "DaVinci Resolve", "Jira"],
+  platforms: ["Vercel", "GitHub"],
+  skills: ["API Development/Integration"],
+  currentlyLearning: "Advanced web architectures and deployment strategies"
+};
+```
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Abdelhakim-baalla&limit=5&theme=dark&combine_all_yearly_contributions=true)
+## 💻 Projects & Contributions
+
+<div align="center">
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Abdelhakim-baalla&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/Abdelhakim-baalla)
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Abdelhakim-baalla&theme=tokyonight&hide_border=true)](https://github.com/Abdelhakim-baalla)
+
+</div>
+
+### 📊 Top Languages
+
+<div align="center">
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelhakim-baalla&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact)](https://github.com/Abdelhakim-baalla)
+
+</div>
+
+## 🏆 Achievements
+
+<div align="center">
+
+[![Trophy](https://github-profile-trophy.vercel.app/?username=Abdelhakim-baalla&theme=tokyonight&no-frame=true&column=4&row=1)](https://github.com/Abdelhakim-baalla)
+
+</div>
+
+### ⚡ Top Contributions
+
+<div align="center">
+
+[![Top Contributed Repos](https://github-contributor-stats.vercel.app/api?username=Abdelhakim-baalla&limit=4&theme=tokyonight&combine_all_yearly_contributions=true&hide_border=true)](https://github.com/Abdelhakim-baalla)
+
+</div>
+
+## 🔍 Find Me Around The Web
+
+<div align="center">
+  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdelhakimbaalla)
+[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/29011477)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/Abdelhakim99891)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@Dinocrafting)
+
+</div>
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Abdelhakim-baalla&icon=0&color=0)](https://visitcount.itsvg.in)
 
+<div align="center">
+  
+![Tech Stack](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Tech Stack](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/API-0096FF?style=flat-square&logo=api&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/DaVinci_Resolve-233A51?style=flat-square&logo=davinciresolve&logoColor=white)
+![Tech Stack](https://img.shields.io/badge/Godot-478CBF?style=flat-square&logo=godot-engine&logoColor=white)
 
+</div>
+
+<div align="center">
+  <img src="https://visitcount.itsvg.in/api?id=Abdelhakim-baalla&icon=5&color=6" alt="Profile Views">
+</div>
+
+<div align="center">
+  <em>Let's build something amazing together!</em>
+</div>
