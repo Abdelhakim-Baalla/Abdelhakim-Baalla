@@ -7,24 +7,40 @@
 ## 😎 About Me
 
 ```javascript
-// How I Roll 🎲
-const abdelhakim = {
-  MOOD: function() {
-    const moods = ['😴 Sleepy', '☕ Caffeinated', '🔥 Coding Beast', '🤔 Debugging'];
-    return moods[Math.floor(Math.random() * moods.length)];
-  },
-  FUEL: ['Pizza 🍕', 'Coffee ☕', 'More Coffee ☕☕', 'Determination 💪'],
-  SUPERPOWER: function(problem) {
-    console.log('Hmm, interesting challenge...');
-    setTimeout(() => {
-      return `✨ Fixed! (Actually took ${Math.floor(Math.random() * 10) + 1} hours of Googling)`;
-    }, 1000);
-  },
-  CURRENT_PROJECT: 'Something that will probably change the world... or at least work properly 🤞'
-};
+// My Developer DNA 🧬
+class Abdelhakim {
+  constructor() {
+    this.currentMood = this.#generateMood();
+    this.energySources = ['Pizza 🍕', 'Coffee ☕', 'More Coffee ☕☕', 'Determination 💪'];
+    this.passions = ['Coding 💻', 'Minecraft ⛏️', 'Problem Solving 🧩'];
+    this.currentProject = 'Something that will probably change the world... or at least compile without errors 🤞';
+  }
+
+  #generateMood() {
+    const possibleMoods = ['😴 Sleepy but coding anyway', 
+                          '☕ Caffeinated and unstoppable', 
+                          '🔥 In the zone', 
+                          '🤔 Debugging the impossible'];
+    return possibleMoods[Math.floor(Math.random() * possibleMoods.length)];
+  }
+
+  solveProblem(problem) {
+    console.log(`Encountering ${problem}... challenge accepted!`);
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(`✨ Problem solved! (Only took ${Math.floor(Math.random() * 10) + 1} hours of StackOverflow)`);
+      }, 1000);
+    });
+  }
+
+  toString() {
+    return `Currently: ${this.currentMood} | Working on: ${this.currentProject}`;
+  }
+}
 
 // Current status
-console.log(`Today I'm feeling ${abdelhakim.MOOD()}`);
+const me = new Abdelhakim();
+console.log(me.toString());
 ```
 
 <div align="center">
@@ -82,21 +98,22 @@ console.log(`Today I'm feeling ${abdelhakim.MOOD()}`);
   </tr>
 </table>
 
-<div align="center">
-  <h2>📊 GitHub Stats (They're pretty cool, I know 😉)</h2>
-  <img src="https://github-readme-stats.vercel.app/api?username=Abdelhakim-baalla&show_icons=true&theme=synthwave&border_radius=10&title_color=F72585&icon_color=4CC9F0" alt="GitHub Stats">
-  <br><br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Abdelhakim-baalla&theme=synthwave&border_radius=10&fire=4CC9F0&currStreakLabel=F72585" alt="GitHub Streak">
+<div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <div>
+    <h2>📊 GitHub Stats</h2>
+    <img src="https://github-readme-stats.vercel.app/api?username=Abdelhakim-baalla&show_icons=true&theme=synthwave&border_radius=10&title_color=F72585&icon_color=4CC9F0" alt="GitHub Stats">
+  </div>
+  <div>
+    <h2>👀 Top Languages</h2>
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelhakim-baalla&layout=compact&theme=synthwave&border_radius=10&title_color=F72585" alt="Top Languages">
+  </div>
 </div>
 
 <div align="center">
-  <h2>🏆 GitHub Trophies (My Precious...)</h2>
-  <img src="https://github-profile-trophy.vercel.app/?username=Abdelhakim-baalla&theme=radical&no-frame=true&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies">
-</div>
-
-<div align="center">
-  <h2>👀 Quick! Look at my top languages before they change!</h2>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelhakim-baalla&layout=compact&theme=synthwave&border_radius=10&title_color=F72585" alt="Top Languages">
+  <h2>🎮 Minecraft & Coding: My Two Passions</h2>
+  <p>When I'm not crafting beautiful code, I'm crafting beautiful worlds in Minecraft! 
+  Both involve problem-solving, creativity, and a whole lot of patience when things don't work as expected.</p>
+  <img src="https://img.shields.io/badge/Minecraft-%23007396.svg?style=for-the-badge&logo=minecraft&logoColor=white">
 </div>
 
 <div align="center">
@@ -116,13 +133,8 @@ console.log(`Today I'm feeling ${abdelhakim.MOOD()}`);
 </div>
 
 <div align="center">
-  <h2>💬 Random Dev Quote (To make you think I'm deep...)</h2>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Random Quote">
-</div>
-
-<div align="center">
   <img src="https://komarev.com/ghpvc/?username=Abdelhakim-baalla&style=for-the-badge&color=F72585" alt="Profile Views">
-  <h4>If you read this far, you deserve a cookie 🍪</h4>
+  <h4>If you read this far, you deserve a diamond pickaxe ⛏️</h4>
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
