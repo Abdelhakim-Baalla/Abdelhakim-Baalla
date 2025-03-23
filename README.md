@@ -160,10 +160,6 @@ while(!success) {
 
 <br>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Abdelhakim-baalla&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=6&row=1" alt="GitHub Trophies" />
-</div>
-
 ---
 
 <h2 align="center">🏆 Top Contributions</h2>
@@ -178,11 +174,3 @@ while(!success) {
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Abdelhakim-baalla&color=blueviolet&style=for-the-badge" alt="Profile Views" /> 
 </div>
-
-<div align="center">
-  <a href="https://www.buymeacoffee.com/">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me A Coffee" />
-  </a>
-</div>
-
-<img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" width="100%">
