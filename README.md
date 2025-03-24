@@ -9,13 +9,13 @@
   <img src="https://user-images.githubusercontent.com/74038190/216656944-f8c1b44e-493b-487f-8b2d-00e36c11c169.gif" width="150">
   
   <p>
-    Full-stack developer with a passion for creating elegant solutions to complex problems. I'm constantly exploring new technologies and methodologies to improve my craft. When I'm not knee-deep in code, you might find me experimenting with digital creation or optimizing systems for maximum efficiency.
+    I'm a passionate full-stack developer specializing in Laravel and Angular, dedicated to building robust and scalable web applications. With a strong foundation in both backend and frontend technologies, I create seamless digital experiences that solve real-world problems.
   </p>
   
   <p>
-    <b>✨ Current Mood:</b> Somewhere between "Just one more coffee" and "Eureka! It works!"<br>
-    <b>🚀 Working On:</b> Projects that push the boundaries of what's possible in web development<br>
-    <b>🔥 Superpower:</b> Turning impossible bugs into elegant solutions
+    <b>🚀 Current Focus:</b> Developing innovative web solutions with Laravel, PHP, and modern frontend frameworks<br>
+    <b>💡 Approach:</b> Clean code, performance optimization, and user-centered design<br>
+    <b>🌱 Always:</b> Learning, exploring new technologies, and refining my development practices
   </p>
 </div>
 
@@ -38,7 +38,7 @@
     </td>
     <td align="center" width="50%">
       <h3>⚙️ Back-End Wizardry</h3>
-      <img src="https://media0.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif?cid=ecf05e47ot6lhxgx2uud8kp9wngdgsd75k46535kgvog9nbo&rid=giphy.gif" width="70">
+      <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="70">
       <div>
         <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
         <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
@@ -62,13 +62,26 @@
     </td>
     <td align="center" style="background: linear-gradient(to right, rgba(76, 201, 240, 0.1), rgba(247, 37, 133, 0.1));">
       <h3>🎬 Creative Suite</h3>
-      <img src="https://user-images.githubusercontent.com/74038190/212280805-9bcb336b-8c55-46a8-abf9-1e0b908016d2.gif" width="70">
+      <img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="70">
       <div>
         <img src="https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white">
         <img src="https://img.shields.io/badge/Premiere_Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white">
         <img src="https://img.shields.io/badge/DaVinci_Resolve-000000?style=for-the-badge&logo=davinciresolve&logoColor=white">
         <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
         <img src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godot-engine&logoColor=white">
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2" style="background: linear-gradient(to right, rgba(247, 37, 133, 0.05), rgba(76, 201, 240, 0.05));">
+      <h3>🌐 Database & Cloud Skills</h3>
+      <img src="https://user-images.githubusercontent.com/74038190/216656982-2f72cb56-7aa6-44b1-a100-158d4fa0b5c4.gif" width="70">
+      <div>
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
+        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
+        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black">
+        <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
+        <img src="https://img.shields.io/badge/Digital_Ocean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white">
       </div>
     </td>
   </tr>
