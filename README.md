@@ -71,7 +71,7 @@ const abdelhakim = {
 
 ## 📊 GitHub Analytics
 
-<div align="center" style="display: flex; gap: 10px; justify-content: center;">
+<div align="center" style="display: flex; gap: 5px; justify-content: center;">
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=Abdelhakim-baalla&theme=tokyonight&hide_border=true" />
   <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Abdelhakim-baalla&theme=tokyonight" />
 </div>
@@ -87,9 +87,6 @@ const abdelhakim = {
 <div style="display: flex; align-items: flex-start;">
   <img align="left" height="300" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
   <div>
-    <h3>🎨 UI/UX Design</h3>
-    <p>Creating intuitive, visually appealing interfaces with a focus on user experience</p>
-    
     <h3>🚀 Optimization</h3>
     <p>Improving application performance through strategic optimizations and best practices</p>
     
@@ -130,9 +127,6 @@ If you found my work helpful, feel free to **follow me** for more tutorials, tip
     </a>
    <a href="https://stackoverflow.com/users/29011477" target="_blank">
       <img src="https://img.shields.io/badge/-Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow">
-    </a>
-   <a href="https://stackoverflow.com/users/29011477" target="_blank">
-      <img src="https://img.shields.io/badge/medium-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow">
     </a>
 </div>
 
