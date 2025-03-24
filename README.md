@@ -62,7 +62,7 @@
     </td>
     <td align="center" style="background: linear-gradient(to right, rgba(76, 201, 240, 0.1), rgba(247, 37, 133, 0.1));">
       <h3>🎬 Creative Suite</h3>
-      <img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="70">
+      <img src="https://media1.giphy.com/media/26xDIHnq2G6JpJgmA/giphy.gif" width="70">
       <div>
         <img src="https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white">
         <img src="https://img.shields.io/badge/Premiere_Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white">
@@ -116,3 +116,4 @@
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+
