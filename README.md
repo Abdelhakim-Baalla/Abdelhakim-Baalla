@@ -1,10 +1,12 @@
-# <div align="center">![Typing SVG](https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=40&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&height=100&lines=Hey+there!+I'm+Abdelhakim+%F0%9F%91%8B;Full-Stack+Developer+%F0%9F%9A%80;Digital+Creator+%F0%9F%8E%A8;Problem+Solver+%F0%9F%A7%A0)</div>
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=40&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&height=100&lines=Hey+there!+I'm+Abdelhakim+%F0%9F%91%8B;Full-Stack+Developer+%F0%9F%9A%80;Digital+Creator+%F0%9F%8E%A8;Problem+Solver+%F0%9F%A7%A0" alt="Typing SVG" />
+</div>
 
 <div align="center">
-  
-  ![Banner](https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=180&section=header&text=Building%20Digital%20Experiences&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36)
-
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6366F1&height=180&section=header&text=Building%20Digital%20Experiences&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=36" alt="Header Wave"/>
 </div>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
 
 ## 💫 About Me
 
@@ -27,6 +29,12 @@ const abdelhakim = {
 };
 ```
 
+<p>
+  <b>🚀 Current Focus:</b> Developing innovative web solutions with Laravel, PHP, and modern frontend frameworks<br>
+  <b>💡 Approach:</b> Clean code, performance optimization, and user-centered design<br>
+  <b>🌱 Always:</b> Learning, exploring new technologies, and refining my development practices
+</p>
+
 <div align="center">
   <a href="https://linkedin.com/in/abdelhakimbaalla">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -44,24 +52,24 @@ const abdelhakim = {
 
 ---
 
-## 🛠️ My Skill Arsenal
+## 🛠️ My Tech Stack & Skills
 
 <table>
   <tr>
     <td valign="top" width="33%">
-      <h3>Frontend</h3>
+      <h3>🎨 Frontend</h3>
       <div align="center">  
         <img src="https://skillicons.dev/icons?i=html,css,js,ts,angular,bootstrap,tailwind" />
       </div>
     </td>
     <td valign="top" width="33%">
-      <h3>Backend</h3>
+      <h3>⚙️ Backend</h3>
       <div align="center">
         <img src="https://skillicons.dev/icons?i=php,laravel,java,spring,c" />
       </div>
     </td>
     <td valign="top" width="33%">
-      <h3>Tools & Others</h3>
+      <h3>🔧 Tools & Others</h3>
       <div align="center">
         <img src="https://skillicons.dev/icons?i=git,docker,figma,photoshop,mysql,postgres,vercel" />
       </div>
@@ -86,25 +94,23 @@ const abdelhakim = {
 
 ## 🌟 What I Do
 
-<div>
-  <div style="display: flex; align-items: flex-start;">
-    <img align="left" height="300" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
-    <div>
-      <h3>🖥️ Web Development</h3>
-      <p>Building responsive, high-performance web applications with Laravel and Angular</p>
-      
-      <h3>🎨 UI/UX Design</h3>
-      <p>Creating intuitive, visually appealing interfaces with a focus on user experience</p>
-      
-      <h3>🚀 Optimization</h3>
-      <p>Improving application performance through strategic optimizations and best practices</p>
-      
-      <h3>📱 Cross-Platform Development</h3>
-      <p>Developing solutions that work seamlessly across different devices and platforms</p>
-      
-      <h3>🎬 Content Creation</h3>
-      <p>Producing tech tutorials and educational content on YouTube</p>
-    </div>
+<div style="display: flex; align-items: flex-start;">
+  <img align="left" height="300" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
+  <div>
+    <h3>🖥️ Web Development</h3>
+    <p>Building responsive, high-performance web applications with Laravel and Angular</p>
+    
+    <h3>🎨 UI/UX Design</h3>
+    <p>Creating intuitive, visually appealing interfaces with a focus on user experience</p>
+    
+    <h3>🚀 Optimization</h3>
+    <p>Improving application performance through strategic optimizations and best practices</p>
+    
+    <h3>📱 Cross-Platform Development</h3>
+    <p>Developing solutions that work seamlessly across different devices and platforms</p>
+    
+    <h3>🎬 Content Creation</h3>
+    <p>Producing tech tutorials and educational content on YouTube</p>
   </div>
 </div>
 
@@ -112,20 +118,27 @@ const abdelhakim = {
 
 ---
 
-## 🏆 GitHub Trophies
+## 💼 Featured Projects
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Abdelhakim-baalla&theme=algolia&no-frame=true&no-bg=true&margin-w=4" />
+  <!-- Project cards would go here - you can add these later -->
+  <p><i>Coming soon! Showcasing my best work in web development and digital creativity.</i></p>
+</div>
+
+---
+
+## 📝 Latest Blog Posts
+
+<div align="center">
+  <!-- Blog post links would go here - you can add these later -->
+  <p><i>Stay tuned for insightful articles about development, design, and technology!</i></p>
 </div>
 
 ---
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-</div>
-
-<div align="center">
   <img src="https://komarev.com/ghpvc/?username=Abdelhakim-baalla&style=for-the-badge&color=6366F1" />
+  <h4>Thanks for visiting my profile! ⭐</h4>
 </div>
 
 <div align="center">
