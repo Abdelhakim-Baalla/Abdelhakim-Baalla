@@ -84,19 +84,6 @@ const abdelhakim = {
 
 ---
 
-## 🔭 Featured Projects
-
-<div align="center">
-  <a href="https://github.com/yourusername/project1">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abdelhakim-baalla&repo=project1&theme=tokyonight&hide_border=true" />
-  </a>
-  <a href="https://github.com/yourusername/project2">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Abdelhakim-baalla&repo=project2&theme=tokyonight&hide_border=true" />
-  </a>
-</div>
-
----
-
 ## 🌟 What I Do
 
 <div>
@@ -122,16 +109,6 @@ const abdelhakim = {
 </div>
 
 <br clear="all" />
-
----
-
-## 📘 Recent Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-- [Optimizing Laravel Applications for Scale](https://yourblog.com/optimizing-laravel)
-- [Angular Best Practices in 2025](https://yourblog.com/angular-best-practices)
-- [Modern Database Design Patterns](https://yourblog.com/database-design)
-<!-- BLOG-POST-LIST:END -->
 
 ---
 
