@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=F72585&center=true&vCenter=true&width=600&height=100&lines=Hey+there!+I'm+Abdelhakim+%F0%9F%91%8B;Full-Stack+Developer+%F0%9F%9A%80;Digital+Creator+%F0%9F%8E%A8;Problem+Solver+%F0%9F%A7%A0" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=0077B5&center=true&vCenter=true&width=600&height=100&lines=Hey+there!+I'm+Abdelhakim+%F0%9F%91%8B;Full-Stack+Developer+%F0%9F%9A%80;Digital+Creator+%F0%9F%8E%A8;Problem+Solver+%F0%9F%A7%A0" alt="Typing SVG" />
 </div>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
@@ -49,7 +49,7 @@
     </td>
   </tr>
   <tr>
-    <td align="center" style="background: linear-gradient(to right, rgba(247, 37, 133, 0.1), rgba(76, 201, 240, 0.1));">
+    <td align="center" style="background: linear-gradient(to right, rgba(0, 119, 181, 0.1), rgba(0, 119, 181, 0.1));">
       <h3>🔧 Dev Tools & More</h3>
       <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="70">
       <div>
@@ -60,9 +60,9 @@
         <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
       </div>
     </td>
-    <td align="center" style="background: linear-gradient(to right, rgba(76, 201, 240, 0.1), rgba(247, 37, 133, 0.1));">
+    <td align="center" style="background: linear-gradient(to right, rgba(0, 119, 181, 0.1), rgba(0, 119, 181, 0.1));">
       <h3>🎬 Creative Suite</h3>
-      [<img src="https://media1.giphy.com/media/26xDIHnq2G6JpJgmA/giphy.gif" width="70">](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjdtOWFvZWJlcWJnZnRqcWJnZnRqcWJnZnRqcWJnZnRqcWJnZnRqcWJnZg/kHqtT3bAdWVXCvQJjJ/giphy.gif)
+      <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="70">
       <div>
         <img src="https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white">
         <img src="https://img.shields.io/badge/Premiere_Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white">
@@ -73,23 +73,20 @@
     </td>
   </tr>
   <tr>
-    <td align="center" colspan="2" style="background: linear-gradient(to right, rgba(247, 37, 133, 0.05), rgba(76, 201, 240, 0.05));">
-      <h3>🌐 Database & Cloud Skills</h3>
+    <td align="center" colspan="2" style="background: linear-gradient(to right, rgba(0, 119, 181, 0.05), rgba(0, 119, 181, 0.05));">
+      <h3>🌐 Database Skills</h3>
       <img src="https://user-images.githubusercontent.com/74038190/216656982-2f72cb56-7aa6-44b1-a100-158d4fa0b5c4.gif" width="70">
       <div>
         <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
-        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white">
-        <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black">
-        <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white">
-        <img src="https://img.shields.io/badge/Digital_Ocean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white">
+        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
       </div>
     </td>
   </tr>
 </table>
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 30px;">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Abdelhakim-baalla&show_icons=true&theme=radical&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=F72585&icon_color=4CC9F0&text_color=FFFFFF&border_color=F72585" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelhakim-baalla&layout=compact&langs_count=7&theme=radical&bg_color=0D1117&title_color=F72585&text_color=FFFFFF&border_color=F72585" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Abdelhakim-baalla&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=0077B5&icon_color=0077B5&text_color=FFFFFF&border_color=0077B5" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelhakim-baalla&layout=compact&langs_count=7&theme=github_dark&bg_color=0D1117&title_color=0077B5&text_color=FFFFFF&border_color=0077B5" />
 </div>
 
 <div align="center" style="margin-top: 30px;">
@@ -111,7 +108,7 @@
 </div>
 
 <div align="center" style="margin-top: 30px;">
-  <img src="https://komarev.com/ghpvc/?username=Abdelhakim-baalla&style=for-the-badge&color=F72585" alt="Profile Views">
+  <img src="https://komarev.com/ghpvc/?username=Abdelhakim-baalla&style=for-the-badge&color=0077B5" alt="Profile Views">
   <h4>Thanks for visiting my profile! ⭐</h4>
 </div>
 
