@@ -82,28 +82,6 @@ const abdelhakim = {
 
 ---
 
-## 🌟 What I Do
-
-<div style="display: flex; align-items: flex-start;">
-  <img align="left" height="300" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
-  <div>
-    <h3>🚀 Optimization</h3>
-    <p>Improving application performance through strategic optimizations and best practices</p>
-    
-    <h3>📱 Cross-Platform Development</h3>
-    <p>Developing solutions that work seamlessly across different devices and platforms</p>
-    
-    <h3>🎬 Content Creation</h3>
-    <p>Producing tech tutorials and educational content on YouTube</p>
-    
-    <h3>🧩 Problem Solving</h3>
-    <p>Crafting elegant solutions to complex technical challenges through analytical thinking</p>
-  </div>
-</div>
-
-<br clear="all" />
-
----
 
 ## 👋 Follow Me for More!
 
