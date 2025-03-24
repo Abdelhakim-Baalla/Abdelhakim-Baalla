@@ -87,9 +87,6 @@ const abdelhakim = {
 <div style="display: flex; align-items: flex-start;">
   <img align="left" height="300" src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" />
   <div>
-    <h3>🖥️ Web Development</h3>
-    <p>Creating intuitive, visually appealing interfaces with a focus on user experience</p>
-    
     <h3>🎨 UI/UX Design</h3>
     <p>Creating intuitive, visually appealing interfaces with a focus on user experience</p>
     
@@ -101,10 +98,36 @@ const abdelhakim = {
     
     <h3>🎬 Content Creation</h3>
     <p>Producing tech tutorials and educational content on YouTube</p>
+    
+    <h3>🧩 Problem Solving</h3>
+    <p>Crafting elegant solutions to complex technical challenges through analytical thinking</p>
   </div>
 </div>
 
 <br clear="all" />
+
+---
+
+## 👋 Follow Me for More!
+
+If you found my work helpful, feel free to **follow me** for more tutorials, tips, and insights on web development and programming:
+
+<div align="center">
+  <a href="https://github.com/Abdelhakim-Baalla">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com/in/abdelhakimbaalla/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://x.com/Abdelhakim99891">
+    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+  <a href="https://www.instagram.com/abdelhakim.baalla/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+</div>
+
+<p align="center">Let's connect and grow together! 🚀</p>
 
 ---
 
