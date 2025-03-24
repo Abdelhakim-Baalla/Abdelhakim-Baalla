@@ -125,6 +125,15 @@ If you found my work helpful, feel free to **follow me** for more tutorials, tip
   <a href="https://www.instagram.com/abdelhakim.baalla/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
+  <a href="https://youtube.com/@Dinocrafting" target="_blank">
+      <img src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
+    </a>
+   <a href="https://stackoverflow.com/users/29011477" target="_blank">
+      <img src="https://img.shields.io/badge/-Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow">
+    </a>
+   <a href="https://stackoverflow.com/users/29011477" target="_blank">
+      <img src="https://img.shields.io/badge/medium-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow">
+    </a>
 </div>
 
 <p align="center">Let's connect and grow together! 🚀</p>
