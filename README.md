@@ -1,143 +1,303 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=0077B5&center=true&vCenter=true&width=600&height=100&lines=Hey+there!+I'm+Abdelhakim+%F0%9F%91%8B;Full-Stack+Developer+%F0%9F%9A%80;Digital+Creator+%F0%9F%8E%A8;Problem+Solver+%F0%9F%A7%A0" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=800&height=80&lines=root@github:~%24+whoami;Abdelhakim+Baalla+-+Full-Stack+Developer;root@github:~%24+cat+skills.txt;Laravel+%7C+Angular+%7C+Spring+%7C+Docker;root@github:~%24+echo+%22Welcome+to+my+terminal%22" alt="Terminal Typing" />
 </div>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+```bash
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│                        TERMINAL SESSION                                                 │
+│                     abdelhakim@dev-machine                                              │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
+```
 
-## 💫 About Me
+## ** SYSTEM INFORMATION**
 
-<img align="right" src="https://raw.githubusercontent.com/rahul-jha98/rahul-jha98/main/techstack.gif" width="360px"/>
+```bash
+root@github:~$ neofetch
+```
 
-```javascript
-const abdelhakim = {
-  location: "Morocco",
-  role: "Full-Stack Developer",
-  code: ["PHP", "JavaScript", "TypeScript", "Java", "C"],
-  specialties: ["Laravel", "Angular", "Spring", "Tailwind CSS"],
-  passions: [
-    "Clean Architecture",
-    "Performance Optimization",
-    "User Experience",
-    "Learning New Technologies"
-  ],
-  currentFocus: "Building scalable web applications",
-  funFact: "I love video editing almost as much as coding!"
-};
+```yaml
+                    User: Abdelhakim Baalla
+                Location: Morocco 🇲🇦
+              Occupation: Full-Stack Developer
+                  Status: Available for freelance work
+            Architecture: Web Development Specialist
+                  Uptime: 2+ years in production
+              Kernel Ver: Laravel 10.x | Angular 16+
+```
+
+---
+
+## **INSTALLED PACKAGES**
+
+```bash
+root@github:~$ apt list --installed | grep -E "(frontend|backend|tools)"
+```
+
+<div style="font-family: 'Fira Code', 'Courier New', monospace;">
+
+### **Frontend Stack**
+```bash
+$ npm list -g
+├── angular@16.2.0
+├── typescript@5.1.6
+├── tailwindcss@3.3.0
+├── javascript-es6@latest
+└── html5-css3@stable
+```
+
+### **Backend Arsenal**
+```bash
+$ composer global show
+├── laravel/framework@10.x
+├── php@8.2
+├── spring-boot@3.1.0
+├── mysql@8.0
+└── docker@24.0
+```
+
+### **DevOps Toolkit**
+```bash
+$ which tools
+├── /usr/bin/git
+├── /usr/bin/docker
+├── /usr/bin/postman
+├── /usr/local/bin/vercel
+└── /opt/vscode/code
+```
+
+</div>
+
+---
+
+## **SYSTEM PERFORMANCE**
+
+```bash
+root@github:~$ htop
 ```
 
 <div align="center">
-  <a href="https://linkedin.com/in/abdelhakimbaalla">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://x.com/Abdelhakim99891">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-  </a>
-  <a href="https://youtube.com/@Dinocrafting">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
-  </a>
-  <a href="https://stackoverflow.com/users/29011477">
-    <img src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow" />
-  </a>
+
+```
+  CPU Usage    [████████████████████████████████] 95% (Learning Mode)
+  Memory       [██████████████████████░░░░░░░░░░] 75% (Code Storage)
+  Disk I/O     [████████████████████████████████] 90% (Project Files)
+  Network      [████████████████████████████████] 85% (GitHub Activity)
+```
+
+**Process List:**
+```bash
+PID    COMMAND           CPU%    MEM%    TIME
+1001   laravel-dev       25.3    15.2    350:42
+1002   angular-build     18.7    12.4    280:15
+1003   docker-compose    12.1    8.9     195:33
+1004   youtube-creator   8.4     6.1     125:28
+```
+
 </div>
 
 ---
 
-## 🛠️ My Tech Stack & Skills
+## **ACTIVE SERVICES**
 
-<table align="center" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td align="center" width="50%">
-      <h3>🎨 Front-End Magic</h3>
-      <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="70">
-      <div>
-        <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-        <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-        <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white">
-        <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
-      </div>
-    </td>
-    <td align="center" width="50%">
-      <h3>⚙️ Back-End Wizardry</h3>
-      <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="70">
-      <div>
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
-        <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
-        <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
-        <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
-        <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white">
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="background: linear-gradient(to right, rgba(0, 119, 181, 0.1), rgba(0, 119, 181, 0.1));">
-      <h3>🔧 Dev Tools & More</h3>
-      <img src="https://user-images.githubusercontent.com/74038190/212257468-1e9a91f1-b626-4baa-b15d-5c385dfa7ed2.gif" width="70">
-      <div>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-        <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
-        <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
-      </div>
-    </td>
-    <td align="center" style="background: linear-gradient(to right, rgba(0, 119, 181, 0.1), rgba(0, 119, 181, 0.1));">
-      <h3>🎬 Creative Suite</h3>
-      <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" width="70">
-      <div>
-        <img src="https://img.shields.io/badge/Adobe_Photoshop-31A8FF?style=for-the-badge&logo=adobephotoshop&logoColor=white">
-        <img src="https://img.shields.io/badge/Premiere_Pro-9999FF?style=for-the-badge&logo=adobepremierepro&logoColor=white">
-        <img src="https://img.shields.io/badge/DaVinci_Resolve-000000?style=for-the-badge&logo=davinciresolve&logoColor=white">
-        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
-        <img src="https://img.shields.io/badge/Godot-478CBF?style=for-the-badge&logo=godot-engine&logoColor=white">
-      </div>
-    </td>
-  </tr>
-</table>
+```bash
+root@github:~$ systemctl status developer.service
+```
 
+<div style="font-family: 'Fira Code', 'Courier New', monospace;">
 
----
+```bash
+● developer.service - Full-Stack Development Service
+   Loaded: loaded (/etc/systemd/system/developer.service; enabled)
+   Active: active (running) since 2022-01-01 00:00:00 UTC; 3 years ago
+   
+   Main Process: Full-Stack Development
+   ├─ Frontend Development    [RUNNING]
+   ├─ Backend Architecture    [RUNNING] 
+   ├─ Database Management     [RUNNING]
+   ├─ Content Creation        [RUNNING]
+   └─ Continuous Learning     [RUNNING]
+   
+   Status: "Ready to build amazing applications"
+   Memory: 4.2G (High Performance Mode)
+   Tasks: Handling multiple client projects
+```
 
-## 📊 GitHub Analytics
-
-<div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 30px;">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Abdelhakim-baalla&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=0077B5&icon_color=0077B5&text_color=FFFFFF&border_color=0077B5" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelhakim-baalla&layout=compact&langs_count=7&theme=github_dark&bg_color=0D1117&title_color=0077B5&text_color=FFFFFF&border_color=0077B5" />
 </div>
 
 ---
 
+## **NETWORK CONNECTIONS**
 
-## 👋 Follow Me for More!
+```bash
+root@github:~$ curl -s https://api.social-links.dev/abdelhakim
+```
 
-If you found my work helpful, feel free to **follow me** for more tutorials, tips, and insights on web development and programming:
+<div align="center" style="font-family: 'Fira Code', 'Courier New', monospace;">
+
+```json
+{
+  "connections": {
+    "portfolio": "https://abdelhakim-baalla.vercel.app/",
+    "social_media": [
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/abdelhakimbaalla",
+        "status": "professional_networking"
+      },
+      {
+        "platform": "Twitter",  
+        "url": "https://x.com/Abdelhakim99891",
+        "status": "tech_discussions"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://youtube.com/@Dinocrafting", 
+        "status": "content_creation"
+      },
+      {
+        "platform": "Stack Overflow",
+        "url": "https://stackoverflow.com/users/29011477",
+        "status": "community_helper"
+      }
+    ]
+  }
+}
+```
+
+**Quick Access:**
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://abdelhakim-baalla.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdelhakimbaalla)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/Abdelhakim99891)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@Dinocrafting)
+[![Stack Overflow](https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/29011477)
+
+</div>
+
+---
+
+## **RECENT LOGS**
+
+```bash
+root@github:~$ tail -f /var/log/developer.log
+```
+
+<div style="font-family: 'Fira Code', 'Courier New', monospace;">
+
+```bash
+[2024-12-15 09:30:15] INFO: Deployed Laravel application to production
+[2024-12-14 16:45:22] SUCCESS: Angular component optimization completed
+[2024-12-13 11:20:08] INFO: Docker container performance improved by 30%
+[2024-12-12 14:15:33] SUCCESS: New YouTube tutorial published
+[2024-12-11 10:05:17] INFO: Contributing to open-source Laravel package
+[2024-12-10 13:40:29] SUCCESS: Client project delivered ahead of schedule
+[2024-12-09 15:25:44] INFO: Learning advanced React patterns
+[2024-12-08 12:10:55] SUCCESS: Database optimization reduced query time by 40%
+```
+
+</div>
+
+---
+
+## **CURRENT OBJECTIVES**
+
+```bash
+root@github:~$ cat /home/abdelhakim/goals.md
+```
+
+<div style="font-family: 'Fira Code', 'Courier New', monospace;">
+
+```yaml
+Learning_Queue:
+  - Advanced React Patterns & State Management
+  - Microservices Architecture with Docker
+  - Cloud Native Development (AWS/GCP)
+  - GraphQL Advanced Implementation
+
+Active_Missions:
+  - Building SaaS platform for SMBs
+  - Contributing to Laravel ecosystem
+  - Creating educational developer content
+  - Mentoring junior developers
+
+Personal_Projects:
+  - Portfolio enhancement with
+  - Open-source discord boot
+  - YouTube channel growth strategy
+```
+
+</div>
+
+---
+
+## **ANALYTICS DASHBOARD**
+
+```bash
+root@github:~$ ./stats.sh --summary
+```
 
 <div align="center">
-  <a href="https://github.com/Abdelhakim-Baalla">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="https://www.linkedin.com/in/abdelhakimbaalla/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://x.com/Abdelhakim99891">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-  </a>
-  <a href="https://www.instagram.com/abdelhakim.baalla/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="https://youtube.com/@Dinocrafting" target="_blank">
-      <img src="https://img.shields.io/badge/-YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
-    </a>
-   <a href="https://stackoverflow.com/users/29011477" target="_blank">
-      <img src="https://img.shields.io/badge/-Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow">
-    </a>
+
+```
+┌─────────────────────────────────────────────────┐
+│                 DEVELOPER METRICS               │
+├─────────────────────────────────────────────────┤
+│  🎯 Active Repositories:        25+            │
+│  💻 Programming Languages:      8              │
+│  🚀 Years of Experience:        2+             │
+│  👥 Satisfied Clients:          15+            │
+│  🌟 Open Source Contributions:  3+             │
+│  📺 YouTube Subscribers:        Growing        │
+└─────────────────────────────────────────────────┘
+```
+
 </div>
 
-<p align="center">Let's connect and grow together! 🚀</p>
+---
+
+## **CHAT SUPPORT**
+
+```bash
+root@github:~$ echo "Feel free to reach out!"
+```
+
+<div style="font-family: 'Fira Code', 'Courier New', monospace;">
+
+```bash
+Available for:
+├── Freelance Web Development Projects
+├── Technical Consultations  
+├── Code Reviews & Mentoring
+├── Collaboration Opportunities
+└── Tech Discussions & Knowledge Sharing
+
+Response Time: Usually within 24 hours
+Availability: Open to new opportunities
+```
+
+</div>
 
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Abdelhakim-baalla&style=for-the-badge&color=6366F1" />
-  <h4>Thanks for visiting my profile! ⭐</h4>
+
+```bash
+root@github:~$ fortune | cowsay
+```
+
+```
+ ________________________________________
+< Code is poetry written in logic bytes >
+ ----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+```
+
+```bash
+root@github:~$ exit
+Connection to github.com closed.
+```
+
 </div>
