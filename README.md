@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&duration=2000&pause=1000&color=36BCF7FF&center=true&vCenter=true&width=900&height=70&lines=root%40github%3A~%24+whoami;Abdelhakim+Baalla+-+Full-Stack+Developer;root%40github%3A~%24+cat+skills.txt;Laravel+%7C+Angular+%7C+Spring+%7C+Docker;root%40github%3A~%24+echo+%22Welcome+to+my+terminal%22" alt="Terminal Typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&duration=2000&pause=1000&color=00FF41&center=true&vCenter=true&width=900&height=70&lines=root%40github%3A~%24+whoami;Abdelhakim+Baalla+-+Full-Stack+Developer;root%40github%3A~%24+cat+skills.txt;Laravel+%7C+Angular+%7C+Spring+%7C+Docker;root%40github%3A~%24+echo+%22Welcome+to+my+terminal%22" alt="Terminal Typing" />
 </div>
 <div style="font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;">
 <div align="center">
@@ -33,6 +33,18 @@ Uptime: 3+ years in production
 Kernel Ver: Laravel 10.x | Angular 16+
 Hardware: MacBook/PC | Docker Containers
 ```
+
+---
+
+## <div align="center">GITHUB SPONSORS</div>
+
+<div align="center">
+  <a href="https://github.com/sponsors/Abdelhakim-Baalla">
+    <img src="https://img.shields.io/badge/Sponsor%20Me-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Sponsor me on GitHub" />
+  </a>
+  <br>
+  <sub>Support my open-source work and content creation 💖</sub>
+</div>
 
 ---
 
@@ -90,6 +102,15 @@ $ which tools
 
 </div>
 
+</div>
+
+---
+
+## <div align="center">GITHUB ANALYTICS</div>
+
+<div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-top: 30px;">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Abdelhakim-baalla&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=0077B5&icon_color=0077B5&text_color=FFFFFF&border_color=0077B5" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelhakim-baalla&layout=compact&langs_count=7&theme=github_dark&bg_color=0D1117&title_color=0077B5&text_color=FFFFFF&border_color=0077B5" />
 </div>
 
 ---
