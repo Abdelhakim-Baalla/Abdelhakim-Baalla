@@ -1,41 +1,56 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=800&height=80&lines=root@github:~%24+whoami;Abdelhakim+Baalla+-+Full-Stack+Developer;root@github:~%24+cat+skills.txt;Laravel+%7C+Angular+%7C+Spring+%7C+Docker;root@github:~%24+echo+%22Welcome+to+my+terminal%22" alt="Terminal Typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&duration=2000&pause=1000&color=00FF41&center=true&vCenter=true&width=900&height=70&lines=root%40github%3A~%24+whoami;Abdelhakim+Baalla+-+Full-Stack+Developer;root%40github%3A~%24+cat+skills.txt;Laravel+%7C+Angular+%7C+Spring+%7C+Docker;root%40github%3A~%24+echo+%22Welcome+to+my+terminal%22" alt="Terminal Typing" />
 </div>
+<div style="font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;">
+<div align="center">
 
 ```bash
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                        TERMINAL SESSION                                                 │
-│                     abdelhakim@dev-machine                                              │
+│                                TERMINAL SESSION                                         │
+│                             abdelhakim@dev-machine                                      │
 └─────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-## ** SYSTEM INFORMATION**
+</div>
+
+## <div align="center">SYSTEM INFORMATION</div>
+
+<div>
 
 ```bash
 root@github:~$ neofetch
 ```
 
+</div>
+
 ```yaml
-                    User: Abdelhakim Baalla
-                Location: Morocco 🇲🇦
-              Occupation: Full-Stack Developer
-                  Status: Available for freelance work
-            Architecture: Web Development Specialist
-                  Uptime: 2+ years in production
-              Kernel Ver: Laravel 10.x | Angular 16+
+User: Abdelhakim Baalla
+Location: Morocco 🇲🇦
+Occupation: Full-Stack Developer
+Status: Available for freelance work
+Architecture: Web Development Specialist
+Uptime: 3+ years in production
+Kernel Ver: Laravel 10.x | Angular 16+
+Hardware: MacBook/PC | Docker Containers
 ```
 
 ---
 
-## **INSTALLED PACKAGES**
+## <div align="center">INSTALLED PACKAGES</div>
+
+<div>
 
 ```bash
 root@github:~$ apt list --installed | grep -E "(frontend|backend|tools)"
 ```
 
-<div style="font-family: 'Fira Code', 'Courier New', monospace;">
+</div>
 
-### **Frontend Stack**
+<div style="font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;">
+
+### <div >Frontend Stack</div>
+<div>
+
 ```bash
 $ npm list -g
 ├── angular@16.2.0
@@ -45,7 +60,11 @@ $ npm list -g
 └── html5-css3@stable
 ```
 
-### **Backend Arsenal**
+</div>
+
+### <div>Backend Arsenal</div>
+<div>
+
 ```bash
 $ composer global show
 ├── laravel/framework@10.x
@@ -55,7 +74,11 @@ $ composer global show
 └── docker@24.0
 ```
 
-### **DevOps Toolkit**
+</div>
+
+### <div>DevOps Toolkit</div>
+<div>
+
 ```bash
 $ which tools
 ├── /usr/bin/git
@@ -67,15 +90,21 @@ $ which tools
 
 </div>
 
+</div>
+
 ---
 
-## **SYSTEM PERFORMANCE**
+## <div align="center">**SYSTEM PERFORMANCE**</div>
+
+<div >
 
 ```bash
 root@github:~$ htop
 ```
 
-<div align="center">
+</div>
+
+<div>
 
 ```
   CPU Usage    [████████████████████████████████] 95% (Learning Mode)
@@ -97,7 +126,7 @@ PID    COMMAND           CPU%    MEM%    TIME
 
 ---
 
-## **ACTIVE SERVICES**
+## <div align="center">ACTIVE SERVICES</div>
 
 ```bash
 root@github:~$ systemctl status developer.service
@@ -126,13 +155,13 @@ root@github:~$ systemctl status developer.service
 
 ---
 
-## **NETWORK CONNECTIONS**
+## <div align="center"> NETWORK CONNECTIONS</div>
 
 ```bash
 root@github:~$ curl -s https://api.social-links.dev/abdelhakim
 ```
 
-<div align="center" style="font-family: 'Fira Code', 'Courier New', monospace;">
+<div style="font-family: 'Fira Code', 'Courier New', monospace;">
 
 ```json
 {
@@ -164,7 +193,7 @@ root@github:~$ curl -s https://api.social-links.dev/abdelhakim
 }
 ```
 
-**Quick Access:**
+**Quick Access:**<br><br>
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://abdelhakim-baalla.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/abdelhakimbaalla)
 [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/Abdelhakim99891)
@@ -175,7 +204,7 @@ root@github:~$ curl -s https://api.social-links.dev/abdelhakim
 
 ---
 
-## **RECENT LOGS**
+## <div align="center"> RECENT LOGS </div>
 
 ```bash
 root@github:~$ tail -f /var/log/developer.log
@@ -184,21 +213,16 @@ root@github:~$ tail -f /var/log/developer.log
 <div style="font-family: 'Fira Code', 'Courier New', monospace;">
 
 ```bash
+[2023-12-12 14:15:33] SUCCESS: New YouTube tutorial published
 [2024-12-15 09:30:15] INFO: Deployed Laravel application to production
-[2024-12-14 16:45:22] SUCCESS: Angular component optimization completed
-[2024-12-13 11:20:08] INFO: Docker container performance improved by 30%
-[2024-12-12 14:15:33] SUCCESS: New YouTube tutorial published
-[2024-12-11 10:05:17] INFO: Contributing to open-source Laravel package
-[2024-12-10 13:40:29] SUCCESS: Client project delivered ahead of schedule
 [2024-12-09 15:25:44] INFO: Learning advanced React patterns
-[2024-12-08 12:10:55] SUCCESS: Database optimization reduced query time by 40%
 ```
 
 </div>
 
 ---
 
-## **CURRENT OBJECTIVES**
+## <div align="center"> CURRENT OBJECTIVES </div>
 
 ```bash
 root@github:~$ cat /home/abdelhakim/goals.md
@@ -229,24 +253,24 @@ Personal_Projects:
 
 ---
 
-## **ANALYTICS DASHBOARD**
+## <div align="center"> ANALYTICS DASHBOARD </div>
 
 ```bash
 root@github:~$ ./stats.sh --summary
 ```
 
-<div align="center">
+<div>
 
 ```
 ┌─────────────────────────────────────────────────┐
 │                 DEVELOPER METRICS               │
 ├─────────────────────────────────────────────────┤
-│  🎯 Active Repositories:        25+            │
-│  💻 Programming Languages:      8              │
-│  🚀 Years of Experience:        2+             │
-│  👥 Satisfied Clients:          15+            │
-│  🌟 Open Source Contributions:  3+             │
-│  📺 YouTube Subscribers:        Growing        │
+│  🎯 Active Repositories:        25+             │
+│  💻 Programming Languages:      8               │
+│  🚀 Years of Experience:        3+              │
+│  👥 Satisfied Clients:          15+             │
+│  🌟 Open Source Contributions:  10+             │
+│  📺 YouTube Subscribers:        Growing         │
 └─────────────────────────────────────────────────┘
 ```
 
@@ -254,7 +278,7 @@ root@github:~$ ./stats.sh --summary
 
 ---
 
-## **CHAT SUPPORT**
+## <div align="center"> CHAT SUPPORT </div>
 
 ```bash
 root@github:~$ echo "Feel free to reach out!"
@@ -278,7 +302,7 @@ Availability: Open to new opportunities
 
 ---
 
-<div align="center">
+<div >
 
 ```bash
 root@github:~$ fortune | cowsay
@@ -299,5 +323,5 @@ root@github:~$ fortune | cowsay
 root@github:~$ exit
 Connection to github.com closed.
 ```
-
+</div>
 </div>
