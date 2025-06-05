@@ -1,14 +1,14 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&duration=2000&pause=1000&color=00FF41&center=true&vCenter=true&width=900&height=70&lines=root%40github%3A~%24+whoami;Abdelhakim+Baalla+-+Full-Stack+Developer;root%40github%3A~%24+cat+skills.txt;Laravel+%7C+Angular+%7C+Spring+%7C+Docker;root%40github%3A~%24+echo+%22Welcome+to+my+terminal%22" alt="Terminal Typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=24&duration=2000&pause=1000&color=36BCF7FF&center=true&vCenter=true&width=900&height=70&lines=root%40github%3A~%24+whoami;Abdelhakim+Baalla+-+Full-Stack+Developer;root%40github%3A~%24+cat+skills.txt;Laravel+%7C+Angular+%7C+Spring+%7C+Docker;root%40github%3A~%24+echo+%22Welcome+to+my+terminal%22" alt="Terminal Typing" />
 </div>
 <div style="font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;">
 <div align="center">
 
 ```bash
-┌───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│                                                                                                       TERMINAL SESSION                                                                                                                    │
-│                                                                                                    abdelhakim@dev-machine                                                                                                                 │
-└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────────────────┐
+│                                TERMINAL SESSION                                         │
+│                             abdelhakim@dev-machine                                      │
+└─────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
 </div>
