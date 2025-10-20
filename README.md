@@ -243,6 +243,167 @@ root@github:~$ tail -f /var/log/developer.log
 
 ---
 
+## <div align="center"> PROJECTS PORTFOLIO </div>
+
+```bash
+root@github:~$ ls -la ~/projects/
+```
+
+<div style="font-family: 'Fira Code', 'Courier New', monospace;">
+
+### 🌐 Web Applications
+
+```bash
+drwxr-xr-x  10 abdelhakim  staff   320B  YouTicket/
+├── Helpdesk ticketing system with Laravel
+├── Stack: Laravel, Blade, MySQL, JWT
+└── URL: https://github.com/Abdelhakim-Baalla/YouTicket
+
+drwxr-xr-x  10 abdelhakim  staff   320B  WealthWave/
+├── FinTech budget management application
+├── Stack: Node.js, EJS, MongoDB
+└── URL: https://github.com/Abdelhakim-Baalla/WealthWave
+
+drwxr-xr-x  10 abdelhakim  staff   320B  Mahsoul/
+├── Agricultural platform for farmers & experts
+├── Stack: Laravel, Blade, PostgreSQL
+└── URL: https://github.com/Abdelhakim-Baalla/Mahsoul
+
+drwxr-xr-x  10 abdelhakim  staff   320B  E-Sihha-Connect/
+├── Electronic health records API system
+├── Stack: RESTful API, Laravel, JWT
+└── URL: https://github.com/Abdelhakim-Baalla/E-Sihha-Connect
+
+drwxr-xr-x  10 abdelhakim  staff   320B  HackGo/
+├── Hackathon management platform API
+├── Stack: Laravel, JWT, WebSockets
+└── URL: https://github.com/Abdelhakim-Baalla/HackGo
+
+drwxr-xr-x  10 abdelhakim  staff   320B  HackGo-Front/
+├── Hackathon platform frontend
+├── Stack: Next.js, React
+└── URL: https://github.com/Abdelhakim-Baalla/HackGo-Front
+
+drwxr-xr-x  10 abdelhakim  staff   320B  LkhadmaConnect/
+├── Freelancing platform (Upwork-inspired)
+├── Stack: PHP MVC, PostgreSQL, AJAX, Stripe
+└── URL: https://github.com/Abdelhakim-Baalla/LkhadmaConnect-PostgreSQL-PHP-Platform
+
+drwxr-xr-x  10 abdelhakim  staff   320B  ShopMa/
+├── E-commerce platform
+├── Stack: Laravel, PostgreSQL
+└── URL: https://github.com/Abdelhakim-Baalla/ShopMa
+
+drwxr-xr-x  10 abdelhakim  staff   320B  Knowtribe/
+├── Online learning platform
+├── Stack: PHP OOP, MySQL
+└── URL: https://github.com/Abdelhakim-Baalla/Knowtribe
+
+drwxr-xr-x  10 abdelhakim  staff   320B  YouMoney/
+├── Online wallet & payment API
+├── Stack: Laravel, REST API
+└── URL: https://github.com/Abdelhakim-Baalla/YouMoney
+
+drwxr-xr-x  10 abdelhakim  staff   320B  YouMoney-Front/
+├── Wallet frontend interface
+├── Stack: Vue.js
+└── URL: https://github.com/Abdelhakim-Baalla/YouMoney-Front
+```
+
+### 🛠️ Tools & Utilities
+
+```bash
+drwxr-xr-x  10 abdelhakim  staff   320B  Advanced-System-Maintenance-terminal/
+├── Professional Windows maintenance toolkit
+├── Stack: Batch, PowerShell
+└── URL: https://github.com/Abdelhakim-Baalla/Advanced-System-Maintenance-terminal
+
+drwxr-xr-x  10 abdelhakim  staff   320B  Atelier-Docker-API-To-Do/
+├── Docker workshop with Express & MongoDB
+├── Stack: Docker, Docker Compose, Express, MongoDB
+└── URL: https://github.com/Abdelhakim-Baalla/Atelier-Docker-API-To-Do-avec-Express-et-MongoDB
+
+drwxr-xr-x  10 abdelhakim  staff   320B  Hello-Extension-Chrome/
+├── Chrome extension starter
+├── Stack: JavaScript, Chrome APIs
+└── URL: https://github.com/Abdelhakim-Baalla/Hello-Extension-Chrome
+```
+
+### 🎮 Interactive Apps
+
+```bash
+drwxr-xr-x  10 abdelhakim  staff   320B  Alignia/
+├── Customizable Tic-Tac-Toe game (n×n grid)
+├── Stack: JavaScript, HTML, CSS
+└── URL: https://github.com/Abdelhakim-Baalla/Alignia
+
+drwxr-xr-x  10 abdelhakim  staff   320B  Interactive-Quiz-App/
+├── Dynamic quiz application
+├── Stack: JavaScript, Tailwind CSS
+└── URL: https://github.com/Abdelhakim-Baalla/Interactive-Quiz-App
+
+drwxr-xr-x  10 abdelhakim  staff   320B  Weather-App/
+├── Weather information application
+├── Stack: JavaScript, API Integration
+└── URL: https://github.com/Abdelhakim-Baalla/Weather-App
+
+drwxr-xr-x  10 abdelhakim  staff   320B  Simple-todo-list-app/
+├── Task management application
+├── Stack: JavaScript, LocalStorage
+└── URL: https://github.com/Abdelhakim-Baalla/Simple-todo-list-app
+
+drwxr-xr-x  10 abdelhakim  staff   320B  poetic-phrase-generator/
+├── Creative phrase generator
+├── Stack: JavaScript
+└── URL: https://github.com/Abdelhakim-Baalla/poetic-phrase-generator
+```
+
+### 🕌 Islamic Applications
+
+```bash
+drwxr-xr-x  10 abdelhakim  staff   320B  Athkar-bot/
+├── Discord bot for Islamic reminders
+├── Stack: Discord.js, HTML
+└── URL: https://github.com/Abdelhakim-Baalla/Athkar-bot
+
+drwxr-xr-x  10 abdelhakim  staff   320B  Istighfar-Counter/
+├── Digital counter for Dhikr
+├── Stack: HTML, CSS, JavaScript
+└── URL: https://github.com/Abdelhakim-Baalla/Istighfar-Counter
+```
+
+### 🤖 Arduino & IoT
+
+```bash
+drwxr-xr-x  10 abdelhakim  staff   320B  AquaVerdure/
+├── Smart gardening with soil moisture sensor
+├── Stack: Arduino, C++, LCD I2C
+└── URL: https://github.com/Abdelhakim-Baalla/AquaVerdure
+
+drwxr-xr-x  10 abdelhakim  staff   320B  Blink_LED_with_Arduino/
+├── First Arduino project (LED blink)
+├── Stack: Arduino, C++
+└── URL: https://github.com/Abdelhakim-Baalla/Blink_LED_with_Arduino
+```
+
+### 📚 Learning & Practice
+
+```bash
+drwxr-xr-x  10 abdelhakim  staff   320B  Workshop-SAS-YouCode/
+├── C programming challenges collection
+├── Stack: C Language
+└── URL: https://github.com/Abdelhakim-Baalla/Workshop-SAS-YouCode
+
+drwxr-xr-x  10 abdelhakim  staff   320B  LibraFlow/
+├── Library management system
+├── Stack: C Language
+└── URL: https://github.com/Abdelhakim-Baalla/LibraFlow
+```
+
+</div>
+
+---
+
 ## <div align="center"> CURRENT OBJECTIVES </div>
 
 ```bash
@@ -265,8 +426,8 @@ Active_Missions:
   - Mentoring junior developers
 
 Personal_Projects:
-  - Portfolio enhancement with
-  - Open-source discord boot
+  - Portfolio enhancement
+  - Open-source contributions
   - YouTube channel growth strategy
 ```
 
