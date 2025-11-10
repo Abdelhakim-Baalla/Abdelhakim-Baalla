@@ -18,7 +18,9 @@
 
 ---
 
-## <div align="center">📊 SYSTEM INFORMATION</div>
+## <div align="center">SYSTEM INFORMATION</div>
+
+<div align="center">
 
 ```bash
 root@github:~$ neofetch
@@ -27,7 +29,7 @@ root@github:~$ neofetch
 ```yaml
 User: Abdelhakim Baalla
 Role: Full-Stack Developer (MERN Stack & Laravel)
-Location: Agadir, Morocco 🇲🇦
+Location: Agadir, Morocco
 Status: Available for freelance & remote work
 Education: YouCode - UM6P (2024-Present)
 Experience: 1+ years
@@ -37,6 +39,8 @@ Client Satisfaction: 100%
 Portfolio: https://abdelhakim-baalla.vercel.app
 Contact: abdelhakimbaalla50@gmail.com
 ```
+
+</div>
 
 ---
 
@@ -83,11 +87,15 @@ $ which tools
 
 ---
 
-## <div align="center">📈 GITHUB ANALYTICS</div>
+## <div align="center">GITHUB ANALYTICS</div>
+
+<div align="center">
 
 ```bash
 root@github:~$ ./github-stats.sh --display
 ```
+
+</div>
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Abdelhakim-baalla&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=FFFFFF&border_color=00FF41" alt="GitHub Stats" />
@@ -100,83 +108,93 @@ root@github:~$ ./github-stats.sh --display
 
 ---
 
-## <div align="center">🚀 FEATURED PROJECTS</div>
+## <div align="center">FEATURED PROJECTS</div>
+
+<div align="center">
 
 ```bash
 root@github:~/projects$ ls -la --details
 ```
 
+</div>
+
 <div align="center">
 
-### 🌾 Mahsoul - Agricultural Platform
+### Mahsoul - Agricultural Platform
 
 ```text
 Type: Full-Stack Web Application
 Stack: PHP | Laravel | JavaScript | Blade | MySQL
 Description: Platform connecting farmers with agricultural experts
 Features:
-  ✓ Online consultation booking system
-  ✓ Product catalog with secure payment
-  ✓ Expert-farmer communication system
-  ✓ Order tracking & management
+  - Online consultation booking system
+  - Product catalog with secure payment
+  - Expert-farmer communication system
+  - Order tracking & management
 ```
 
 [![Repo](https://img.shields.io/badge/GitHub-View_Repository-00FF41?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdelhakim-Baalla/Mahsoul)
 
-### 💰 WealthWave - FinTech Solution
+### WealthWave - FinTech Solution
 
 ```text
 Type: Financial Management Platform
 Stack: Node.js | Express.js | EJS | MySQL
 Description: Personal finance tracking & budget management
 Features:
-  ✓ Transaction tracking & categorization
-  ✓ Savings goals management
-  ✓ Interactive financial dashboards
-  ✓ Expense analytics & reports
+  - Transaction tracking & categorization
+  - Savings goals management
+  - Interactive financial dashboards
+  - Expense analytics & reports
 ```
 
 [![Repo](https://img.shields.io/badge/GitHub-View_Repository-00FF41?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Abdelhakim-Baalla/WealthWave)
 
-### 🤖 Athkar Bot - Discord Bot
+### Athkar Bot - Discord Bot
 
 ```text
 Type: Discord Automation Bot
 Stack: Python | Discord.js
 Description: Islamic reminders & daily Dhikr automation
 Features:
-  ✓ Automated morning/evening Athkar
-  ✓ Quranic verses & Hadith delivery
-  ✓ Customizable reminder schedules
+  - Automated morning/evening Athkar
+  - Quranic verses & Hadith delivery
+  - Customizable reminder schedules
 ```
 
 </div>
 
 ---
 
-## <div align="center">💼 WORK EXPERIENCE</div>
+## <div align="center">WORK EXPERIENCE</div>
+
+<div align="center">
 
 ```bash
 root@github:~$ cat /var/log/experience.log
 ```
 
 ```log
-[2025-05] NJT-GROUP · Full-Stack Developer · Marrakech, Morocco
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+[2025-05] NJT-GROUP - Full-Stack Developer - Marrakech, Morocco
+
 Project: Complete Ticketing Management System
 Stack: PHP, Laravel, JavaScript, SQL, Tailwind CSS, Git
 
 Responsibilities & Achievements:
-  ✓ Developed full-featured ticket management system
-  ✓ Implemented role-based access (admins, agents, clients)
-  ✓ Created automated queue prioritization system
-  ✓ Built integrated communication platform
-  ✓ Deployed scalable architecture with Laravel best practices
+  - Developed full-featured ticket management system
+  - Implemented role-based access (admins, agents, clients)
+  - Created automated queue prioritization system
+  - Built integrated communication platform
+  - Deployed scalable architecture with Laravel best practices
 ```
+
+</div>
 
 ---
 
-## <div align="center">🎓 EDUCATION & CERTIFICATIONS</div>
+## <div align="center">EDUCATION & CERTIFICATIONS</div>
+
+<div align="center">
 
 ```bash
 root@github:~$ cat /usr/share/doc/education.txt
@@ -188,27 +206,31 @@ root@github:~$ cat /usr/share/doc/education.txt
 2024 - Present  YouCode - UM6P (Youssoufia)
                 Full-Stack Developer & Web Designer Program
                 
-2023 - 2024     Établissement Privé Arij Almaarifa (Sidi-Bibi)
-                Baccalauréat - Sciences Physiques & Chimie
+2023 - 2024     Etablissement Prive Arij Almaarifa (Sidi-Bibi)
+                Baccalaureat - Sciences Physiques & Chimie
 ```
 
 ### Certifications
 
 ```bash
-$ ls /home/abdelhakim/certifications/
+ls /home/abdelhakim/certifications/
 ```
 
 ```text
-✓ Foundational C# with Microsoft (freeCodeCamp)
-✓ SQL Certificate (HackerRank)
-✓ Postman API Fundamentals Student Expert (Postman Academy)
-✓ Responsive Web Design (freeCodeCamp)
-✓ JavaScript Algorithms and Data Structures (freeCodeCamp)
+- Foundational C# with Microsoft (freeCodeCamp)
+- SQL Certificate (HackerRank)
+- Postman API Fundamentals Student Expert (Postman Academy)
+- Responsive Web Design (freeCodeCamp)
+- JavaScript Algorithms and Data Structures (freeCodeCamp)
 ```
+
+</div>
 
 ---
 
-## <div align="center">🌐 NETWORK CONNECTIONS</div>
+## <div align="center">NETWORK CONNECTIONS</div>
+
+<div align="center">
 
 ```bash
 root@github:~$ curl -s https://api.social.dev/abdelhakim | jq
@@ -230,6 +252,8 @@ root@github:~$ curl -s https://api.social.dev/abdelhakim | jq
 }
 ```
 
+</div>
+
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://abdelhakim-baalla.vercel.app/)
@@ -243,7 +267,9 @@ root@github:~$ curl -s https://api.social.dev/abdelhakim | jq
 
 ---
 
-## <div align="center">📊 DEVELOPER METRICS</div>
+## <div align="center">DEVELOPER METRICS</div>
+
+<div align="center">
 
 ```bash
 root@github:~$ ./stats.sh --summary
@@ -253,20 +279,24 @@ root@github:~$ ./stats.sh --summary
 ┌──────────────────────────────────────────────────────┐
 │              DEVELOPER PERFORMANCE METRICS           │
 ├──────────────────────────────────────────────────────┤
-│  🎯 Experience:               1+ Years               │
-│  💻 Projects Completed:       10+                    │
-│  🏆 Certifications:           5+                     │
-│  ⭐ Client Satisfaction:      100%                   │
-│  🔧 Tech Stack:              MERN + Laravel          │
-│  🌍 Location:                Morocco                 │
-│  📚 Education:               YouCode @ UM6P          │
-│  🚀 Status:                  Available for work      │
+│  Experience:               1+ Years                  │
+│  Projects Completed:       10+                       │
+│  Certifications:           5+                        │
+│  Client Satisfaction:      100%                      │
+│  Tech Stack:               MERN + Laravel            │
+│  Location:                 Morocco                   │
+│  Education:                YouCode @ UM6P            │
+│  Status:                   Available for work        │
 └──────────────────────────────────────────────────────┘
 ```
 
+</div>
+
 ---
 
-## <div align="center">💡 CURRENT FOCUS</div>
+## <div align="center">CURRENT FOCUS</div>
+
+<div align="center">
 
 ```bash
 root@github:~$ cat /home/abdelhakim/focus.md
@@ -292,9 +322,13 @@ Goals:
   - Help fellow developers grow
 ```
 
+</div>
+
 ---
 
-## <div align="center">💬 LET'S CONNECT</div>
+## <div align="center">LET'S CONNECT</div>
+
+<div align="center">
 
 ```bash
 root@github:~$ echo "Open for opportunities and collaborations"
@@ -302,15 +336,17 @@ root@github:~$ echo "Open for opportunities and collaborations"
 
 ```text
 Available for:
-  ✓ Freelance Web Development Projects
-  ✓ Full-Stack Development Roles
-  ✓ Technical Consulting
-  ✓ Open Source Collaboration
-  ✓ Code Reviews & Mentoring
+  - Freelance Web Development Projects
+  - Full-Stack Development Roles
+  - Technical Consulting
+  - Open Source Collaboration
+  - Code Reviews & Mentoring
 
 Response Time: Within 24 hours
-Status: Ready to create amazing solutions together!
+Status: Ready to create amazing solutions together
 ```
+
+</div>
 
 ---
 
@@ -329,7 +365,7 @@ root@github:~$ figlet "Thank You for Visiting!"
                                                   
 ```
 
-### ⭐ If you find my work interesting, consider giving my repos a star!
+### If you find my work interesting, consider giving my repos a star
 
 ```bash
 root@github:~$ logout
