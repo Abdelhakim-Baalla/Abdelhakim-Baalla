@@ -188,7 +188,11 @@ learning_path = {
 <tr>
 <td width="50%">
 
-### Mahsoul
+<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+  <img src="https://raw.githubusercontent.com/Abdelhakim-Baalla/Mahsoul/main/public/images/logo-white.png" width="60" style="border-radius: 50%;" />
+  <h3 style="margin: 0;">Mahsoul</h3>
+</div>
+
 ```yaml
 Type: Full-Stack Web Application
 Stack: Laravel • PHP • MySQL • JavaScript
@@ -210,7 +214,11 @@ Status: ✅ Production Ready
 </td>
 <td width="50%">
 
-### WealthWave
+<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
+  <img src="https://raw.githubusercontent.com/Abdelhakim-Baalla/WealthWave/main/assets/WealthWave-logo-normal.png" width="60" style="border-radius: 50%;" />
+  <h3 style="margin: 0;">WealthWave</h3>
+</div>
+
 ```yaml
 Type: FinTech Platform
 Stack: Node.js • Express • MySQL • EJS
