@@ -16,7 +16,7 @@
 ╚═════════════════════════════════════════════════════════════════════════════════╝
 ```
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=800&lines=root%40github%3A~%23+whoami;%3E+Abdelhakim+Baalla;root%40github%3A~%23+cat+role.txt;%3E+Full-Stack+Developer+%7C+MERN+%7C+Laravel;root%40github%3A~%23+echo+%24STATUS;%3E+Available+for+hire+%E2%9C%93" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=800&lines=root%40github%3A~%23+whoami;%3E+Abdelhakim+Baalla;root%40github%3A~%23+cat+role.txt;%3E+Full-Stack+Developer+%7C+MERN+%7C+Laravel;root%40github%3A~%23+echo+%24STATUS;%3E+Available+for+hire+%E2%9C%93" alt="Typing SVG" />
 
 </div>
 
@@ -160,12 +160,12 @@ learning_path = {
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Abdelhakim-baalla&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=00ff41&icon_color=00ff41&text_color=c9d1d9&border_color=30363d&hide_border=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelhakim-baalla&layout=compact&langs_count=8&theme=chartreuse-dark&bg_color=0d1117&title_color=00ff41&text_color=c9d1d9&border_color=30363d&hide_border=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Abdelhakim-baalla&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=39FF14&icon_color=00ff41&text_color=8b949e&border_color=30363d&hide_border=true" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelhakim-baalla&layout=compact&langs_count=8&theme=chartreuse-dark&bg_color=0d1117&title_color=39FF14&text_color=8b949e&border_color=30363d&hide_border=true" />
 
-<img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=Abdelhakim-baalla&theme=dark&background=0d1117&border=30363d&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&sideLabels=00ff41&dates=c9d1d9&hide_border=true" />
+<img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=Abdelhakim-baalla&theme=dark&background=0d1117&border=30363d&stroke=39FF14&ring=00ff41&fire=FFD700&currStreakLabel=39FF14&sideLabels=00ff41&dates=8b949e&hide_border=true" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abdelhakim-baalla&theme=github-compact&bg_color=0d1117&color=00ff41&line=00ff41&point=c9d1d9&area=true&hide_border=true" width="90%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abdelhakim-baalla&theme=github-compact&bg_color=0d1117&color=39FF14&line=00ff41&point=FFD700&area=true&hide_border=true" width="90%" />
 
 </div>
 
@@ -204,7 +204,7 @@ Status: ✅ Production Ready
 ▸ Order tracking dashboard  
 
 <a href="https://github.com/Abdelhakim-Baalla/Mahsoul">
-  <img src="https://img.shields.io/badge/VIEW_CODE-00ff41?style=for-the-badge&logo=github&logoColor=black" />
+  <img src="https://img.shields.io/badge/VIEW_CODE-39FF14?style=for-the-badge&logo=github&logoColor=0d1117" />
 </a>
 
 </td>
@@ -226,7 +226,7 @@ Status: ✅ Production Ready
 ▸ Budget alerts & insights  
 
 <a href="https://github.com/Abdelhakim-Baalla/WealthWave">
-  <img src="https://img.shields.io/badge/VIEW_CODE-00ff41?style=for-the-badge&logo=github&logoColor=black" />
+  <img src="https://img.shields.io/badge/VIEW_CODE-00D9FF?style=for-the-badge&logo=github&logoColor=0d1117" />
 </a>
 
 </td>
@@ -234,7 +234,6 @@ Status: ✅ Production Ready
 </table>
 
 </div>
-
 
 ---
 
@@ -376,7 +375,7 @@ Status: ✅ Production Ready
 └──╼ $ curl -X GET https://api.social.dev/abdelhakim/links | jq .
 ```
 
-<div align="start">
+<div align="center">
 
 ```json
 {
@@ -394,12 +393,12 @@ Status: ✅ Production Ready
 
 <br>
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-00ff41?style=for-the-badge&logoColor=black)](https://abdelhakim-baalla.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-00ff41?style=for-the-badge&logoColor=black)](https://linkedin.com/in/abdelhakimbaalla)
-[![GitHub](https://img.shields.io/badge/GITHUB-00ff41?style=for-the-badge&logoColor=black)](https://github.com/Abdelhakim-Baalla)
-[![Email](https://img.shields.io/badge/EMAIL-00ff41?style=for-the-badge&logoColor=black)](mailto:abdelhakimbaalla50@gmail.com)
-[![Twitter](https://img.shields.io/badge/TWITTER-00ff41?style=for-the-badge&logoColor=black)](https://x.com/Abdelhakim99891)
-[![Instagram](https://img.shields.io/badge/INSTAGRAM-00ff41?style=for-the-badge&logoColor=black)](https://instagram.com/abdelhakim.baalla)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-39FF14?style=for-the-badge&logoColor=0d1117)](https://abdelhakim-baalla.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-00D9FF?style=for-the-badge&logoColor=0d1117)](https://linkedin.com/in/abdelhakimbaalla)
+[![GitHub](https://img.shields.io/badge/GITHUB-8b949e?style=for-the-badge&logoColor=0d1117)](https://github.com/Abdelhakim-Baalla)
+[![Email](https://img.shields.io/badge/EMAIL-FFD700?style=for-the-badge&logoColor=0d1117)](mailto:abdelhakimbaalla50@gmail.com)
+[![Twitter](https://img.shields.io/badge/TWITTER-00D9FF?style=for-the-badge&logoColor=0d1117)](https://x.com/Abdelhakim99891)
+[![Instagram](https://img.shields.io/badge/INSTAGRAM-FF6B9D?style=for-the-badge&logoColor=0d1117)](https://instagram.com/abdelhakim.baalla)
 
 </div>
 
@@ -443,7 +442,7 @@ Status: ✅ Production Ready
 
 ---
 
-<div align="start">
+<div align="center">
 
 ```bash
 ┌─[root@github]─[~]
@@ -453,11 +452,11 @@ Status: ✅ Production Ready
 ```ascii
 ╔══════════════════════════════════════════════════════════════════╗
 ║                                                                  ║
-║   _____ _                 _      __   __                          ║
-║  |_   _| |__   __ _ _ __ | | __  \ \ / /__  _   _               ║
-║    | | | '_ \ / _` | '_ \| |/ /   \ V / _ \| | | |              ║
-║    | | | | | | (_| | | | |   <     | | (_) | |_| |              ║
-║    |_| |_| |_|\__,_|_| |_|_|\_\    |_|\___/ \__,_|              ║
+║   _____ _                 _      __   __                        ║
+║  |_   _| |__   __ _ _ __ | | __  \ \ / /__  _   _              ║
+║    | | | '_ \ / _` | '_ \| |/ /   \ V / _ \| | | |             ║
+║    | | | | | | (_| | | | |   <     | | (_) | |_| |             ║
+║    |_| |_| |_|\__,_|_| |_|_|\_\    |_|\___/ \__,_|             ║
 ║                                                                  ║
 ║              For Visiting My Profile!                            ║
 ║                                                                  ║
@@ -481,7 +480,7 @@ Saving session...
 
 <br>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Abdelhakim-baalla&color=00ff41&style=flat-square&label=PROFILE+VIEWS)
+![Profile Views](https://komarev.com/ghpvc/?username=Abdelhakim-baalla&color=39FF14&style=flat-square&label=PROFILE+VIEWS)
 
 ```text
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
