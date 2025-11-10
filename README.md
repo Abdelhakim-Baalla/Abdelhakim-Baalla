@@ -231,102 +231,10 @@ Status: ✅ Production Ready
 
 </td>
 </tr>
-<tr>
-<td width="50%">
-
-### Athkar Bot
-```yaml
-Type: Discord Bot
-Stack: Python • Discord.js API
-Status: ✅ Active
-```
-
-**Islamic reminder bot for Discord communities**
-
-▸ Automated morning & evening Dhikr  
-▸ Daily Quranic verses delivery  
-▸ Prayer time reminders  
-▸ Multi-server support  
-
-<a href="https://github.com/Abdelhakim-Baalla">
-  <img src="https://img.shields.io/badge/VIEW_CODE-00ff41?style=for-the-badge&logo=github&logoColor=black" />
-</a>
-
-</td>
-<td width="50%">
-
-### Ticketing System
-```yaml
-Type: Enterprise Application
-Stack: Laravel • Tailwind • SQL
-Status: ✅ Deployed @ NJT-GROUP
-```
-
-**Complete ticketing management system**
-
-▸ RBAC system (Admin/Agent/Client)  
-▸ Automated queue prioritization  
-▸ Real-time communication  
-▸ RESTful API architecture  
-▸ 40% faster resolution time  
-
-<a href="https://github.com/Abdelhakim-Baalla">
-  <img src="https://img.shields.io/badge/PRIVATE_REPO-00ff41?style=for-the-badge&logo=github&logoColor=black" />
-</a>
-
-</td>
-</tr>
 </table>
 
 </div>
 
----
-
-<div align="center">
-
-## WORK EXPERIENCE
-
-</div>
-
-```bash
-┌─[root@github]─[~/experience]
-└──╼ $ cat work_history.log | tail -n 20
-```
-
-<div align="center">
-
-```log
-╔═══════════════════════════════════════════════════════════════════════╗
-║                                                                       ║
-║  [2025-05 → 2025-07] NJT-GROUP                                       ║
-║  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  ║
-║                                                                       ║
-║  Position:  Full-Stack Developer                                     ║
-║  Location:  Marrakech, Morocco                                       ║
-║  Duration:  3 months                                                 ║
-║                                                                       ║
-║  PROJECT: Complete Ticketing Management System                       ║
-║  ─────────────────────────────────────────────                       ║
-║  Stack: PHP • Laravel • JavaScript • SQL • Tailwind CSS • Git        ║
-║                                                                       ║
-║  KEY ACHIEVEMENTS:                                                    ║
-║  ✓ Architected & developed full-stack ticketing platform            ║
-║  ✓ Implemented RBAC system (Admin/Agent/Client roles)               ║
-║  ✓ Built automated queue prioritization algorithm                   ║
-║  ✓ Created real-time communication system                           ║
-║  ✓ Designed RESTful API architecture                                ║
-║  ✓ Deployed scalable Laravel-based solution                         ║
-║  ✓ Optimized database queries for high performance                  ║
-║                                                                       ║
-║  IMPACT:                                                              ║
-║  → Improved ticket resolution time by 40%                            ║
-║  → Enhanced team collaboration efficiency                            ║
-║  → Delivered production-ready system on schedule                     ║
-║                                                                       ║
-╚═══════════════════════════════════════════════════════════════════════╝
-```
-
-</div>
 
 ---
 
@@ -437,7 +345,7 @@ Status: ✅ Deployed @ NJT-GROUP
 
 <table>
 <tr>
-<td width="33%">
+<td width="90%">
 
 ### Learning Path
 ```yaml
@@ -447,32 +355,6 @@ Status: ✅ Deployed @ NJT-GROUP
 - CI/CD Pipelines
 - GraphQL & Advanced APIs
 - Docker & Kubernetes
-```
-
-</td>
-<td width="33%">
-
-### Building
-```yaml
-- SaaS platform
-  (Laravel + Vue.js)
-- E-commerce solution
-  (MERN Stack)
-- Open-source tools
-- Portfolio v2.0
-  (Next.js)
-```
-
-</td>
-<td width="33%">
-
-### 2025 Goals
-```yaml
-- Master full-stack dev
-- 5+ open-source contributions
-- 3 production apps
-- Mentor developers
-- AWS/Azure certification
 ```
 
 </td>
@@ -494,7 +376,7 @@ Status: ✅ Deployed @ NJT-GROUP
 └──╼ $ curl -X GET https://api.social.dev/abdelhakim/links | jq .
 ```
 
-<div align="center">
+<div align="start">
 
 ```json
 {
@@ -561,7 +443,7 @@ Status: ✅ Deployed @ NJT-GROUP
 
 ---
 
-<div align="center">
+<div align="start">
 
 ```bash
 ┌─[root@github]─[~]
@@ -571,11 +453,11 @@ Status: ✅ Deployed @ NJT-GROUP
 ```ascii
 ╔══════════════════════════════════════════════════════════════════╗
 ║                                                                  ║
-║   _____ _                 _      __   __                        ║
-║  |_   _| |__   __ _ _ __ | | __  \ \ / /__  _   _              ║
-║    | | | '_ \ / _` | '_ \| |/ /   \ V / _ \| | | |             ║
-║    | | | | | | (_| | | | |   <     | | (_) | |_| |             ║
-║    |_| |_| |_|\__,_|_| |_|_|\_\    |_|\___/ \__,_|             ║
+║   _____ _                 _      __   __                          ║
+║  |_   _| |__   __ _ _ __ | | __  \ \ / /__  _   _               ║
+║    | | | '_ \ / _` | '_ \| |/ /   \ V / _ \| | | |              ║
+║    | | | | | | (_| | | | |   <     | | (_) | |_| |              ║
+║    |_| |_| |_|\__,_|_| |_|_|\_\    |_|\___/ \__,_|              ║
 ║                                                                  ║
 ║              For Visiting My Profile!                            ║
 ║                                                                  ║
@@ -603,7 +485,7 @@ Saving session...
 
 ```text
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Made with 💚 by Abdelhakim Baalla | © 2025 | All Rights Reserved
+  Abdelhakim Baalla | © 2025 | All Rights Reserved
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
