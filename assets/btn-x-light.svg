@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 87 52" width="87" height="52" role="img" aria-label="X">
+<title>X</title>
+<style>
+.fg{fill:#0b0b0c}.soft{fill:#3d3d42}.muted{fill:#63636b}.faint{fill:#9a9aa1}.accent{fill:#2d5cff}
+.panel{fill:#f4f4f1}.green{fill:#128a4b}.btn{fill:#0b0b0c}.btnfg{fill:#fbfbfa}.btn2{fill:#f0f0ed}
+.s-accent{stroke:#2d5cff}.s-muted{stroke:#63636b}.s-fg{stroke:#0b0b0c}.s-line{stroke:#d5d5d0}.s-btnfg{stroke:#fbfbfa}
+.ico{fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.in{animation:rise .8s cubic-bezier(0.16,1,0.3,1) both;animation-delay:calc(var(--i,0)*80ms)}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}}
+
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect class="btn2" width="87" height="52" rx="12"/>
+<path class="fg"  d="M24.7 33L22.3 33L26.8 26.2L22.3 19.5L24.7 19.5L28.0 24.6L31.3 19.5L33.7 19.5L29.3 26.2L33.8 33L31.3 33L28.0 27.8L24.7 33Z"/>
+<path class="ico s-fg" transform="translate(44.027 16) scale(0.8333333333333334)" d="M7 17 17 7M9 7h8v8"/>
+</svg>

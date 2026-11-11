@@ -1,499 +1,96 @@
-<div align="center">
-
-```ascii
-╔═════════════════════════════════════════════════════════════════════════════════╗
-║                                                                                 ║
-║                                                                                 ║
-║   █████╗ ██████╗ ██████╗ ███████╗██╗     ██╗  ██╗ █████╗ ██╗  ██╗██╗███╗   ███╗ ║
-║  ██╔══██╗██╔══██╗██╔══██╗██╔════╝██║     ██║  ██║██╔══██╗██║ ██╔╝██║████╗ ████║ ║
-║  ███████║██████╔╝██║  ██║█████╗  ██║     ███████║███████║█████╔╝ ██║██╔████╔██║ ║
-║  ██╔══██║██╔══██╗██║  ██║██╔══╝  ██║     ██╔══██║██╔══██║██╔═██╗ ██║██║╚██╔╝██║ ║
-║  ██║  ██║██████╔╝██████╔╝███████╗███████╗██║  ██║██║  ██║██║  ██╗██║██║ ╚═╝ ██║ ║
-║  ╚═╝  ╚═╝╚═════╝ ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝ ║
-║                                                                                 ║
-║                      Full-Stack Developer & Code Architect                      ║
-║                                                                                 ║
-╚═════════════════════════════════════════════════════════════════════════════════╝
-```
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=39FF14&center=true&vCenter=true&width=800&lines=root%40github%3A~%23+whoami;%3E+Abdelhakim+Baalla;root%40github%3A~%23+cat+role.txt;%3E+Full-Stack+Developer+%7C+MERN+%7C+Laravel;root%40github%3A~%23+echo+%24STATUS;%3E+Available+for+hire+%E2%9C%93" alt="Typing SVG" />
-
-</div>
-
----
-
-<div align="center">
-
-## SYSTEM INITIALIZATION
-
-</div>
-
-```bash
-┌─[root@github]─[~]
-└──╼ $ neofetch
-```
-
-<div align="center">
-
-```yaml
-╭──────────────────────────────────────────────────────────────╮
-│                                                              │
-│  OS:              Linux/Developer Edition                    │
-│  Hostname:        abdelhakim@dev-machine                     │
-│  Kernel:          Full-Stack-5.2.0-LTS                       │
-│  Uptime:          1+ years in production                     │
-│  Shell:           bash 5.0.17                                │
-│  Resolution:      1920x1080                                  │
-│  Terminal:        VSCode Integrated                          │
-│  CPU:             Problem Solver (8) @ 3.5GHz                │
-│  GPU:             Code Renderer 3000                         │
-│  Memory:          10+ Projects / Unlimited Capacity          │
-│                                                              │
-│  ┌────────────────────────────────────────────────────┐      │
-│  │ USER INFO                                          │      │
-│  ├────────────────────────────────────────────────────┤      │
-│  │ Name:         Abdelhakim Baalla                    │      │
-│  │ Role:         Full-Stack Developer                 │      │
-│  │ Location:     Agadir, Morocco                     │      │
-│  │ Education:    YouCode @ UM6P (2024-Present)        │      │
-│  │ Status:       ● Online | Available for hire        │      │
-│  │ Portfolio:    abdelhakim-baalla.vercel.app         │      │
-│  │ Email:        abdelhakimbaalla50@gmail.com         │      │
-│  └────────────────────────────────────────────────────┘      │
-│                                                              │
-╰──────────────────────────────────────────────────────────────╯
-```
-
-</div>
-
----
-
-<div align="center">
-
-## TECH STACK
-
-</div>
-
-```bash
-┌─[root@github]─[~/stack]
-└──╼ $ cat installed_packages.json
-```
-
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-### Frontend
-
-```javascript
-const frontend = {
-  languages: ["JavaScript", "TypeScript", "HTML5", "CSS3"],
-  frameworks: ["React.js", "Vue.js", "Next.js"],
-  styling: ["Tailwind CSS", "Bootstrap", "SASS"],
-  tools: ["Vite", "Webpack", "npm/yarn"]
-};
-```
-
-</td>
-<td width="50%" valign="top">
-
-### Backend
-
-```php
-<?php
-$backend = [
-  'languages' => ['PHP', 'Node.js', 'Python'],
-  'frameworks' => ['Laravel', 'Express.js'],
-  'databases' => ['MySQL', 'PostgreSQL', 'MongoDB'],
-  'api' => ['REST', 'GraphQL', 'Postman']
-];
-?>
-```
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### DevOps & Tools
-
-```bash
-#!/bin/bash
-tools=(
-  "Git & GitHub"
-  "Docker"
-  "Vercel"
-  "Jira"
-  "Linux/Unix"
-)
-```
-
-</td>
-<td width="50%" valign="top">
-
-### Currently Learning
-
-```python
-learning_path = {
-    "cloud": ["AWS", "Azure", "GCP"],
-    "architecture": ["Microservices", "CI/CD"],
-    "advanced": ["GraphQL", "Docker", "K8s"]
-}
-```
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-## GITHUB ANALYTICS
-
-</div>
-
-```bash
-┌─[root@github]─[~/stats]
-└──╼ $ git log --stat --author="Abdelhakim-Baalla"
-```
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Abdelhakim-baalla&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=39FF14&icon_color=00ff41&text_color=8b949e&border_color=30363d&hide_border=true" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abdelhakim-baalla&layout=compact&langs_count=8&theme=chartreuse-dark&bg_color=0d1117&title_color=39FF14&text_color=8b949e&border_color=30363d&hide_border=true" />
-
-<img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=Abdelhakim-baalla&theme=dark&background=0d1117&border=30363d&stroke=39FF14&ring=00ff41&fire=FFD700&currStreakLabel=39FF14&sideLabels=00ff41&dates=8b949e&hide_border=true" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Abdelhakim-baalla&theme=github-compact&bg_color=0d1117&color=39FF14&line=00ff41&point=FFD700&area=true&hide_border=true" width="90%" />
-
-</div>
-
----
-
-<div align="center">
-
-## FEATURED PROJECTS
-
-</div>
-
-```bash
-┌─[root@github]─[~/projects]
-└──╼ $ ls -la | grep "featured"
-```
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
-  <img src="https://raw.githubusercontent.com/Abdelhakim-Baalla/Mahsoul/main/public/images/logo-white.png" width="60" style="border-radius: 50%;" />
-  <h3 style="margin: 0;">Mahsoul</h3>
-</div>
-
-```yaml
-Type: Full-Stack Web Application
-Stack: Laravel • PHP • MySQL • JavaScript
-Status: ✅ Production Ready
-```
-
-**Agricultural platform connecting farmers with experts**
-
-▸ Expert consultation booking system  
-▸ Secure payment gateway integration  
-▸ Real-time communication  
-▸ Product catalog & inventory management  
-▸ Order tracking dashboard  
-
-<a href="https://github.com/Abdelhakim-Baalla/Mahsoul">
-  <img src="https://img.shields.io/badge/VIEW_CODE-39FF14?style=for-the-badge&logo=github&logoColor=0d1117" />
-</a>
-
-</td>
-<td width="50%">
-
-<div style="display: flex; align-items: center; gap: 15px; margin-bottom: 15px;">
-  <img src="https://raw.githubusercontent.com/Abdelhakim-Baalla/WealthWave/main/assets/WealthWave-logo-normal.png" width="60" style="border-radius: 50%;" />
-  <h3 style="margin: 0;">WealthWave</h3>
-</div>
-
-```yaml
-Type: FinTech Platform
-Stack: Node.js • Express • MySQL • EJS
-Status: ✅ Production Ready
-```
-
-**Personal finance tracker with intelligent analytics**
-
-▸ Transaction tracking & categorization  
-▸ Savings goals visualization  
-▸ Interactive financial dashboards  
-▸ Expense analytics & reports  
-▸ Budget alerts & insights  
-
-<a href="https://github.com/Abdelhakim-Baalla/WealthWave">
-  <img src="https://img.shields.io/badge/VIEW_CODE-00D9FF?style=for-the-badge&logo=github&logoColor=0d1117" />
-</a>
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-<div align="center">
-
-## EDUCATION & CERTIFICATIONS
-
-</div>
-
-```bash
-┌─[root@github]─[~/credentials]
-└──╼ $ cat education.txt && ls certifications/
-```
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-### Education
-
-```diff
-+ 2024 - Present
-  YouCode - UM6P (Youssoufia)
-  Program: Full-Stack Developer & Web Designer
-  Focus: MERN Stack, Laravel, Modern Web Development
-
-+ 2023 - 2024
-  Etablissement Prive Arij Almaarifa
-  Degree: Baccalaureat - Sciences Physiques & Chimie
-```
-
-</td>
-<td width="50%">
-
-### Certifications
-
-```bash
-[✓] Foundational C# with Microsoft
-    └─ freeCodeCamp
-
-[✓] SQL Certificate
-    └─ HackerRank
-
-[✓] Postman API Fundamentals Student Expert
-    └─ Postman Academy
-
-[✓] Responsive Web Design
-    └─ freeCodeCamp
-
-[✓] JavaScript Algorithms & Data Structures
-    └─ freeCodeCamp
-```
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-<div align="center">
-
-## PERFORMANCE METRICS
-
-</div>
-
-```bash
-┌─[root@github]─[~/metrics]
-└──╼ $ ./performance_monitor.sh --display
-```
-
-<div align="center">
-
-```text
-╔════════════════════════════════════════════════════════════════╗
-║                                                                ║
-║  Experience Level        [████████░░] 80%  1+ years          ║
-║  Projects Completed      [██████████] 100% 10+ projects       ║
-║  Certifications          [██████████] 100% 5+ earned          ║
-║  Client Satisfaction     [██████████] 100% Perfect score      ║
-║  Code Quality            [█████████░] 90%  A+ Grade           ║
-║  Team Collaboration      [██████████] 100% Excellent          ║
-║  Problem Solving         [█████████░] 90%  Advanced           ║
-║  Learning Agility        [██████████] 100% Continuous         ║
-║                                                                ║
-╚════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-<div align="center">
-
-## CURRENT FOCUS
-
-</div>
-
-```bash
-┌─[root@github]─[~/goals]
-└──╼ $ cat roadmap_2025.yml
-```
-
-<div align="center">
-
-<table>
-<tr>
-<td width="90%">
-
-### Learning Path
-```yaml
-- Advanced React Patterns
-- Microservices Architecture
-- Cloud Technologies (AWS)
-- CI/CD Pipelines
-- GraphQL & Advanced APIs
-- Docker & Kubernetes
-```
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-<div align="center">
-
-## CONNECT WITH ME
-
-</div>
-
-```bash
-┌─[root@github]─[~/network]
-└──╼ $ curl -X GET https://api.social.dev/abdelhakim/links | jq .
-```
-
-<div align="center">
-
-```json
-{
-  "status": "success",
-  "data": {
-    "portfolio": "https://abdelhakim-baalla.vercel.app",
-    "email": "abdelhakimbaalla50@gmail.com",
-    "location": "Agadir, Morocco",
-    "availability": "open_to_opportunities",
-    "response_time": "< 24 hours",
-    "work_status": "freelance_available"
-  }
-}
-```
+<!-- Pictures are generated by scripts/build.mjs, and this file by scripts/readme.mjs. Edit those, then run: npm run build -->
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" alt="Abdelhakim Baâlla. I build production web apps, considered interfaces, reliable APIs, open-source tools, things that last. Tech Lead and AI Systems Architect at Ton avenir au maroc, in Agadir, Morocco. Open to select work." width="100%"></picture>
+
+I'm a tech lead and AI systems architect in Agadir. At **[Ton avenir au maroc](https://baalla.tech/about.html)** I lead the design and build of the **TAM Digital Platform**, a multi-company system for operations, collaboration and automation, from the first schema to the last deploy. My favourite part is still the middle, where product thinking, interface design and clean architecture meet.
+
+<p>
+<a href="https://baalla.tech/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg"><img src="assets/btn-portfolio-light.svg" alt="Portfolio: baalla.tech" height="42"></picture></a>
+<a href="https://www.linkedin.com/in/abdelhakimbaalla/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img src="assets/btn-linkedin-light.svg" alt="LinkedIn" height="42"></picture></a>
+<a href="mailto:abdelhakimbaalla50@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg"><img src="assets/btn-email-light.svg" alt="Email" height="42"></picture></a>
+<a href="https://baalla.tech/assets/pdf/CV-Abdelhakim-Baalla.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-cv-dark.svg"><img src="assets/btn-cv-light.svg" alt="Download CV" height="42"></picture></a>
+<a href="https://x.com/Abdelhakim99891"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-x-dark.svg"><img src="assets/btn-x-light.svg" alt="X" height="42"></picture></a>
+<a href="https://www.youtube.com/@Dinocrafting"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-youtube-dark.svg"><img src="assets/btn-youtube-light.svg" alt="YouTube: Dinocrafting" height="42"></picture></a>
+</p>
 
 <br>
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-39FF14?style=for-the-badge&logoColor=0d1117)](https://abdelhakim-baalla.vercel.app/)
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-00D9FF?style=for-the-badge&logoColor=0d1117)](https://linkedin.com/in/abdelhakimbaalla)
-[![GitHub](https://img.shields.io/badge/GITHUB-8b949e?style=for-the-badge&logoColor=0d1117)](https://github.com/Abdelhakim-Baalla)
-[![Email](https://img.shields.io/badge/EMAIL-FFD700?style=for-the-badge&logoColor=0d1117)](mailto:abdelhakimbaalla50@gmail.com)
-[![Twitter](https://img.shields.io/badge/TWITTER-00D9FF?style=for-the-badge&logoColor=0d1117)](https://x.com/Abdelhakim99891)
-[![Instagram](https://img.shields.io/badge/INSTAGRAM-FF6B9D?style=for-the-badge&logoColor=0d1117)](https://instagram.com/abdelhakim.baalla)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/head-work-dark.svg"><img src="assets/head-work-light.svg" alt="Things I’ve built." width="100%"></picture>
 
-</div>
+<p><a href="https://github.com/Abdelhakim-Baalla/Mahsoul"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-mahsoul-dark.svg"><img src="assets/work-mahsoul-light.svg" alt="Mahsoul, an agri-tech platform where farmers book agronomists and vets, pay, and order supplies. Laravel, PHP, MySQL, Tailwind CSS. 2025." width="100%"></picture></a></p>
+<p><a href="https://github.com/Abdelhakim-Baalla/LBaraka"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-lbaraka-dark.svg"><img src="assets/work-lbaraka-light.svg" alt="LBaraka, a solidarity app where neighbours give, lend and rent everyday objects, with deposits and QR handovers. React Native, NestJS, PostgreSQL, MongoDB. 2026." width="100%"></picture></a></p>
+<p><a href="https://github.com/Abdelhakim-Baalla/WealthWave"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-wealthwave-dark.svg"><img src="assets/work-wealthwave-light.svg" alt="WealthWave, personal finance: budgets, savings goals and expense analytics. Node.js, Express, MySQL, Chart.js. 2025." width="100%"></picture></a></p>
+<p><a href="https://github.com/Abdelhakim-Baalla/omarchy-salat-times"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-salat-dark.svg"><img src="assets/work-salat-light.svg" alt="Salat Times, an Arabic-first prayer times plugin for Omarchy Linux: adhan, Hijri calendar, Qibla, offline. QML, Quickshell, JavaScript. 2026." width="100%"></picture></a></p>
+<p><a href="https://github.com/Abdelhakim-Baalla/quantum-vqe-chemistry-lab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-quantum-dark.svg"><img src="assets/work-quantum-light.svg" alt="Quantum VQE Lab, reproducible variational quantum eigensolver experiments for quantum chemistry. Python, Qiskit, Streamlit. 2026." width="100%"></picture></a></p>
+<p><a href="https://github.com/Abdelhakim-Baalla/Athkar-bot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-athkar-dark.svg"><img src="assets/work-athkar-light.svg" alt="Athkar Bot, a Discord bot for daily Athkar reminders, Quranic verses and schedules. Python, discord.py. 2025." width="100%"></picture></a></p>
 
----
-
-<div align="center">
-
-## OPEN FOR OPPORTUNITIES
-
-</div>
-
-```bash
-┌─[root@github]─[~/availability]
-└──╼ $ cat status.txt
-```
-
-<div align="center">
-
-```text
-╔═══════════════════════════════════════════════════════════════════╗
-║                                                                   ║
-║  STATUS: ● AVAILABLE FOR HIRE                                    ║
-║                                                                   ║
-║  Currently accepting:                                             ║
-║  ━━━━━━━━━━━━━━━━━━━━                                            ║
-║  ✓ Freelance Web Development Projects                            ║
-║  ✓ Full-Stack Development Positions                              ║
-║  ✓ Technical Consulting & Code Reviews                           ║
-║  ✓ Open Source Collaborations                                    ║
-║  ✓ Mentorship & Knowledge Sharing                                ║
-║                                                                   ║
-║  Response Time: < 24 hours                                       ║
-║  Work Mode: Remote | Hybrid | On-site (Morocco)                  ║
-║                                                                   ║
-║  Let's build something amazing together!                         ║
-║                                                                   ║
-╚═══════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-<div align="center">
-
-```bash
-┌─[root@github]─[~]
-└──╼ $ echo "Thanks for visiting!" && exit 0
-```
-
-```ascii
-╔══════════════════════════════════════════════════════════════════╗
-║                                                                  ║
-║   _____ _                 _      __   __                        ║
-║  |_   _| |__   __ _ _ __ | | __  \ \ / /__  _   _              ║
-║    | | | '_ \ / _` | '_ \| |/ /   \ V / _ \| | | |             ║
-║    | | | | | | (_| | | | |   <     | | (_) | |_| |             ║
-║    |_| |_| |_|\__,_|_| |_|_|\_\    |_|\___/ \__,_|             ║
-║                                                                  ║
-║              For Visiting My Profile!                            ║
-║                                                                  ║
-║   If you find my work interesting, consider:                    ║
-║   • Star my repositories                                        ║
-║   • Follow me on GitHub                                         ║
-║   • Reach out for collaborations                                ║
-║                                                                  ║
-╚══════════════════════════════════════════════════════════════════╝
-```
-
-```bash
-[root@github ~]$ logout
-Saving session...
-...copying shared history...
-...saving history...truncating history files...
-...completed.
-
-[Process completed - Connection closed]
-```
+There is more in [the archive](https://github.com/Abdelhakim-Baalla?tab=repositories): Minecraft mods, Arduino sketches, a Godot rogue-lite, and a growing shelf of CodinGame solvers.
 
 <br>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Abdelhakim-baalla&color=39FF14&style=flat-square&label=PROFILE+VIEWS)
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/head-path-dark.svg"><img src="assets/head-path-light.svg" alt="The path so far." width="100%"></picture>
 
-```text
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Abdelhakim Baalla | © 2025 | All Rights Reserved
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/path-dark.svg"><img src="assets/path-light.svg" alt="Since 2026: Tech Lead and AI Systems Architect, Ton avenir au maroc, Souss Massa Technopark, Agadir. 2026: Full-Stack Web and Mobile Intern, Larmo, Casablanca. 2025: Full-Stack Developer Intern, NJT Group, Marrakech. 2024 to 2026: Full-Stack Developer Program, YouCode, UM6P, Youssoufia. 2023 to 2024: Baccalauréat in Physical Sciences, Arij Almaarifa, Sidi Bibi." width="100%"></picture>
 
-</div>
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/head-stack-dark.svg"><img src="assets/head-stack-light.svg" alt="The stack I ship with." width="100%"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" alt="Languages and frameworks: Laravel, React, Vue.js, Next.js, NestJS, Node.js, React Native, TypeScript, PHP, Python, Tailwind CSS. Data and APIs: PostgreSQL, MySQL, MongoDB, REST, GraphQL, Prisma. Tooling and delivery: Git and GitHub, Docker, AWS, Vercel, CI/CD, Postman, Jira. Design and modelling: Figma, UML, Merise, StarUML, Photoshop." width="100%"></picture>
+
+I work in Arabic and Tamazight (native), English (professional) and French (intermediate).
+
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/head-proof-dark.svg"><img src="assets/head-proof-light.svg" alt="Proof of practice." width="100%"></picture>
+
+Fifteen certifications so far. The recent ones follow the work: **Quantum Machine Learning** from IBM, the **Google AI Professional Certificate**, and three from Anthropic on **Claude Code** and the **Model Context Protocol**.
+
+<details>
+<summary>All fifteen, newest first</summary>
+<br>
+
+| Certification | Issuer | Issued |
+| :-- | :-- | :-- |
+| Quantum Machine Learning | IBM | Oct 2026 |
+| Google AI Professional Certificate | Google | Jun 2026 |
+| Arduino: Foundations | LinkedIn Learning | Apr 2026 |
+| Claude Code in Action | Anthropic | Jan 2026 |
+| Model Context Protocol: Advanced Topics | Anthropic | Jan 2026 |
+| Introduction to Model Context Protocol | Anthropic | Jan 2026 |
+| MongoDB (Beginner Level) | Satr (Tuwaiq) | Oct 2025 |
+| Postman API Fundamentals Student Expert | Postman | Mar 2025 |
+| SQL (Basic) Certificate | HackerRank | Dec 2024 |
+| Foundational C# with Microsoft | Microsoft & freeCodeCamp | Jul 2024 |
+| Network Programming | Satr (Tuwaiq) | Feb 2024 |
+| PHP Basics | Satr (Tuwaiq) | Feb 2024 |
+| SQL | Satr (Tuwaiq) | Dec 2023 |
+| JavaScript Algorithms and Data Structures | freeCodeCamp | Jun 2023 |
+| Responsive Web Design | freeCodeCamp | Jun 2023 |
+
+Each one can be verified on [LinkedIn](https://www.linkedin.com/in/abdelhakimbaalla/details/certifications/).
+
+</details>
+
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/head-year-dark.svg"><img src="assets/head-year-light.svg" alt="A year in dots." width="100%"></picture>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/year-dark.svg"><img src="assets/year-light.svg" alt="My GitHub contributions over the last twelve months, one dot per day. Larger dots are busier days." width="100%"></picture>
+
+<sub>Drawn from the GitHub API and redrawn every morning by <a href=".github/workflows/readme.yml">a workflow in this repository</a>.</sub>
+
+<br>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/close-dark.svg"><img src="assets/close-light.svg" alt="Let’s build something worth shipping. Usually a reply within 24 hours." width="100%"></picture>
+
+Open to ambitious collaborations, technical partnerships and select freelance builds. Tell me the shape of the problem; if it is not a fit, I will say so and point you somewhere better.
+
+<p>
+<a href="mailto:abdelhakimbaalla50@gmail.com?subject=Hello%20Abdelhakim"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-hello-dark.svg"><img src="assets/btn-hello-light.svg" alt="Start a conversation" height="42"></picture></a>
+<a href="https://baalla.tech/services.html"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-services-dark.svg"><img src="assets/btn-services-light.svg" alt="See services" height="42"></picture></a>
+</p>
+
+<br>
+
+<a href="https://baalla.tech/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg"><img src="assets/footer-light.svg" alt="Baâlla." width="100%"></picture></a>
