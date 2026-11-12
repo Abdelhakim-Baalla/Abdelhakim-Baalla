@@ -5,12 +5,12 @@
 I'm a tech lead and AI systems architect in Agadir. At **[Ton avenir au maroc](https://baalla.tech/about.html)** I lead the design and build of the **TAM Digital Platform**, a multi-company system for operations, collaboration and automation, from the first schema to the last deploy. My favourite part is still the middle, where product thinking, interface design and clean architecture meet.
 
 <p>
-<a href="https://baalla.tech/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg"><img src="assets/btn-portfolio-light.svg" alt="Portfolio: baalla.tech" height="42"></picture></a>
-<a href="https://www.linkedin.com/in/abdelhakimbaalla/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img src="assets/btn-linkedin-light.svg" alt="LinkedIn" height="42"></picture></a>
-<a href="mailto:abdelhakimbaalla50@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg"><img src="assets/btn-email-light.svg" alt="Email" height="42"></picture></a>
-<a href="https://baalla.tech/assets/pdf/CV-Abdelhakim-Baalla.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-cv-dark.svg"><img src="assets/btn-cv-light.svg" alt="Download CV" height="42"></picture></a>
-<a href="https://x.com/Abdelhakim99891"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-x-dark.svg"><img src="assets/btn-x-light.svg" alt="X" height="42"></picture></a>
-<a href="https://www.youtube.com/@Dinocrafting"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-youtube-dark.svg"><img src="assets/btn-youtube-light.svg" alt="YouTube: Dinocrafting" height="42"></picture></a>
+<a href="https://baalla.tech/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg"><img src="assets/btn-portfolio-light.svg" alt="Portfolio: baalla.tech" height="36"></picture></a>
+<a href="https://www.linkedin.com/in/abdelhakimbaalla/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-linkedin-dark.svg"><img src="assets/btn-linkedin-light.svg" alt="LinkedIn" height="36"></picture></a>
+<a href="mailto:abdelhakimbaalla50@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-email-dark.svg"><img src="assets/btn-email-light.svg" alt="Email" height="36"></picture></a>
+<a href="https://baalla.tech/assets/pdf/CV-Abdelhakim-Baalla.pdf"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-cv-dark.svg"><img src="assets/btn-cv-light.svg" alt="Download CV" height="36"></picture></a>
+<a href="https://x.com/Abdelhakim99891"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-x-dark.svg"><img src="assets/btn-x-light.svg" alt="X" height="36"></picture></a>
+<a href="https://www.youtube.com/@Dinocrafting"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-youtube-dark.svg"><img src="assets/btn-youtube-light.svg" alt="YouTube: Dinocrafting" height="36"></picture></a>
 </p>
 
 <br>
@@ -87,6 +87,6 @@ Each one can be verified on [LinkedIn](https://www.linkedin.com/in/abdelhakimbaa
 Open to ambitious collaborations, technical partnerships and select freelance builds. Tell me the shape of the problem; if it is not a fit, I will say so and point you somewhere better.
 
 <p>
-<a href="mailto:abdelhakimbaalla50@gmail.com?subject=Hello%20Abdelhakim"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-hello-dark.svg"><img src="assets/btn-hello-light.svg" alt="Start a conversation" height="42"></picture></a>
-<a href="https://baalla.tech/services.html"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-services-dark.svg"><img src="assets/btn-services-light.svg" alt="See services" height="42"></picture></a>
+<a href="mailto:abdelhakimbaalla50@gmail.com?subject=Hello%20Abdelhakim"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-hello-dark.svg"><img src="assets/btn-hello-light.svg" alt="Start a conversation" height="36"></picture></a>
+<a href="https://baalla.tech/services.html"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-services-dark.svg"><img src="assets/btn-services-light.svg" alt="See services" height="36"></picture></a>
 </p>

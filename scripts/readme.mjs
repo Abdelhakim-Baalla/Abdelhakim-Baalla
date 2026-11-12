@@ -3,7 +3,7 @@ import { writeFileSync } from 'node:fs';
 const pic = (name, alt, attrs = 'width="100%"') =>
   `<picture><source media="(prefers-color-scheme: dark)" srcset="assets/${name}-dark.svg"><img src="assets/${name}-light.svg" alt="${alt}" ${attrs}></picture>`;
 const link = (href, name, alt, attrs) => `<a href="${href}">${pic(name, alt, attrs)}</a>`;
-const btn = (href, name, alt) => link(href, `btn-${name}`, alt, 'height="42"');
+const btn = (href, name, alt) => link(href, `btn-${name}`, alt, 'height="36"');
 const gh = (r) => `https://github.com/Abdelhakim-Baalla/${r}`;
 
 const work = [
