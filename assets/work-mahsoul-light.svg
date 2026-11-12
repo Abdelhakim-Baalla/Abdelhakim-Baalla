@@ -2,7 +2,7 @@
 <title>Mahsoul, agri-tech platform, 2025. Farmers book agronomists and vets, pay, and order supplies in one place. Built with Laravel, PHP, MySQL, Tailwind CSS.</title>
 <style>
 .fg{fill:#0b0b0c}.soft{fill:#3d3d42}.muted{fill:#63636b}.faint{fill:#9a9aa1}.accent{fill:#2d5cff}
-.panel{fill:#f4f4f1}.green{fill:#128a4b}.btn{fill:#0b0b0c}.btnfg{fill:#fbfbfa}.btn2{fill:#f0f0ed}.paper{fill:#f6f6f3}.strip{fill:#ecece8}
+.panel{fill:#f4f4f1}.green{fill:#128a4b}.btn{fill:#0b0b0c}.btnfg{fill:#fbfbfa}.btn2{fill:#f0f0ed}.paper{fill:#f6f6f3}.strip{fill:#ecece8}.chip{fill:#e6e6e1}
 .s-accent{stroke:#2d5cff}.s-muted{stroke:#63636b}.s-fg{stroke:#0b0b0c}.s-line{stroke:#d5d5d0}.s-btnfg{stroke:#fbfbfa}
 .ico{fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .in{animation:rise .7s cubic-bezier(0.16,1,0.3,1) both;animation-delay:calc(var(--i,0)*70ms)}

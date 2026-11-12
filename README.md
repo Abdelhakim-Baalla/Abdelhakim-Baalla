@@ -2,7 +2,7 @@
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" alt="Abdelhakim Baâlla. I build production web apps, considered interfaces, reliable APIs, open-source tools, things that last. Tech Lead and AI Systems Architect at Ton avenir au maroc, in Agadir, Morocco. Open to select work." width="100%"></picture>
 
-I'm a tech lead and AI systems architect in Agadir. At **[Ton avenir au maroc](https://baalla.tech/about.html)** I lead the design and build of the **TAM Digital Platform**, a multi-company system for operations, collaboration and automation, from the first schema to the last deploy. My favourite part is still the middle, where product thinking, interface design and clean architecture meet.
+I turn loose ideas into fast, considered products, from the first schema to the last deploy. My favourite part is still the middle, where product thinking, interface design and clean architecture meet.
 
 <p>
 <a href="https://baalla.tech/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg"><img src="assets/btn-portfolio-light.svg" alt="Portfolio: baalla.tech" height="36"></picture></a>
@@ -13,7 +13,17 @@ I'm a tech lead and AI systems architect in Agadir. At **[Ton avenir au maroc](h
 <a href="https://www.youtube.com/@Dinocrafting"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-youtube-dark.svg"><img src="assets/btn-youtube-light.svg" alt="YouTube: Dinocrafting" height="36"></picture></a>
 </p>
 
+On this page: [now](#now) · [work](#work) · [path](#path) · [stack](#stack) · [certifications](#proof) · [services](#help) · [the year](#year) · [contact](#contact)
+
 <br>
+<a name="now"></a>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/head-now-dark.svg"><img src="assets/head-now-light.svg" alt="What I’m building now." width="100%"></picture>
+
+<a href="https://baalla.tech/about.html"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/now-dark.svg"><img src="assets/now-light.svg" alt="TAM Digital Platform. Tech Lead and AI Systems Architect at Ton avenir au maroc, Souss Massa Technopark, Agadir, since 2026. A multi-company platform that centralises business operations, makes collaboration easier and automates the work in between. I lead its architecture, its AI integration and its delivery." width="100%"></picture></a>
+
+<br>
+<a name="work"></a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/head-work-dark.svg"><img src="assets/head-work-light.svg" alt="Things I’ve built." width="100%"></picture>
 
@@ -27,12 +37,14 @@ I'm a tech lead and AI systems architect in Agadir. At **[Ton avenir au maroc](h
 There is more in [the archive](https://github.com/Abdelhakim-Baalla?tab=repositories): Minecraft mods, Arduino sketches, a Godot rogue-lite, and a growing shelf of CodinGame solvers.
 
 <br>
+<a name="path"></a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/head-path-dark.svg"><img src="assets/head-path-light.svg" alt="The path so far." width="100%"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/path-dark.svg"><img src="assets/path-light.svg" alt="Since 2026: Tech Lead and AI Systems Architect, Ton avenir au maroc, Souss Massa Technopark, Agadir. 2026: Full-Stack Web and Mobile Intern, Larmo, Casablanca. 2025: Full-Stack Developer Intern, NJT Group, Marrakech. 2024 to 2026: Full-Stack Developer Program, YouCode, UM6P, Youssoufia. 2023 to 2024: Baccalauréat in Physical Sciences, Arij Almaarifa, Sidi Bibi." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/path-dark.svg"><img src="assets/path-light.svg" alt="Since 2026: Tech Lead and AI Systems Architect at Ton avenir au maroc, Agadir, leading the architecture, AI integration and delivery of the TAM Digital Platform. April to July 2026: Full-Stack Web and Mobile Developer intern at Larmo, Casablanca, where I designed and built StoreezCOD with Nest.js, Next.js, TypeScript, Docker and AWS. May to July 2025: Full-Stack Developer intern at NJT Group, Marrakech, with Laravel and React. 2024 to 2026: Full-Stack Developer Program at YouCode, UM6P, Youssoufia, graduated. 2023 to 2024: Baccalauréat in Physical Sciences, Arij Almaarifa, Sidi Bibi." width="100%"></picture>
 
 <br>
+<a name="stack"></a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/head-stack-dark.svg"><img src="assets/head-stack-light.svg" alt="The stack I ship with." width="100%"></picture>
 
@@ -41,10 +53,13 @@ There is more in [the archive](https://github.com/Abdelhakim-Baalla?tab=reposito
 I work in Arabic and Tamazight (native), English (professional) and French (intermediate).
 
 <br>
+<a name="proof"></a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/head-proof-dark.svg"><img src="assets/head-proof-light.svg" alt="Proof of practice." width="100%"></picture>
 
-Fifteen certifications so far. The recent ones follow the work: **Quantum Machine Learning** from IBM, the **Google AI Professional Certificate**, and three from Anthropic on **Claude Code** and the **Model Context Protocol**.
+<a href="https://baalla.tech/certifications.html"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/certs-dark.svg"><img src="assets/certs-light.svg" alt="Six recent certifications: Quantum Machine Learning, IBM, October 2026. Google AI Professional Certificate, Google, June 2026. Claude Code in Action, Anthropic, January 2026. Model Context Protocol: Advanced Topics, Anthropic, January 2026. Arduino: Foundations, LinkedIn Learning, April 2026. Postman API Fundamentals Student Expert, Postman, March 2025." width="100%"></picture></a>
+
+Fifteen certifications so far; these six are the ones closest to the work I do now.
 
 <details>
 <summary>All fifteen, newest first</summary>
@@ -73,6 +88,16 @@ Each one can be verified on [LinkedIn](https://www.linkedin.com/in/abdelhakimbaa
 </details>
 
 <br>
+<a name="help"></a>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/head-help-dark.svg"><img src="assets/head-help-light.svg" alt="How I can help." width="100%"></picture>
+
+<a href="https://baalla.tech/services.html"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/services-dark.svg"><img src="assets/services-light.svg" alt="Six services: frontend development, backend development, full-stack development, mobile apps, e-commerce, and consulting and code review." width="100%"></picture></a>
+
+Freelance and contract, remote from Agadir. Scope and starting prices are on [the services page](https://baalla.tech/services.html).
+
+<br>
+<a name="year"></a>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/head-year-dark.svg"><img src="assets/head-year-light.svg" alt="A year in dots." width="100%"></picture>
 
@@ -81,8 +106,9 @@ Each one can be verified on [LinkedIn](https://www.linkedin.com/in/abdelhakimbaa
 <sub>Drawn from the GitHub API and redrawn every morning by <a href=".github/workflows/readme.yml">a workflow in this repository</a>.</sub>
 
 <br>
+<a name="contact"></a>
 
-<a href="https://baalla.tech/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/close-dark.svg"><img src="assets/close-light.svg" alt="Let’s build something worth shipping. Usually a reply within 24 hours." width="100%"></picture></a>
+<a href="https://baalla.tech/contact.html"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/close-dark.svg"><img src="assets/close-light.svg" alt="Let’s build something worth shipping. Usually a reply within 24 hours." width="100%"></picture></a>
 
 Open to ambitious collaborations, technical partnerships and select freelance builds. Tell me the shape of the problem; if it is not a fit, I will say so and point you somewhere better.
 

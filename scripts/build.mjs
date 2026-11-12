@@ -28,13 +28,13 @@ const THEMES = {
     fg: '#0b0b0c', soft: '#3d3d42', muted: '#63636b', faint: '#9a9aa1',
     accent: '#2d5cff', panel: '#f4f4f1', dot: '#0b0b0c', dotO: 0.13,
     line: '#d5d5d0', green: '#128a4b', btn: '#0b0b0c', btnFg: '#fbfbfa', btn2: '#f0f0ed',
-    paper: '#f6f6f3', strip: '#ecece8',
+    paper: '#f6f6f3', strip: '#ecece8', chip: '#e6e6e1',
   },
   dark: {
     fg: '#f4f4f2', soft: '#d3d3d6', muted: '#a1a1a8', faint: '#6f6f77',
     accent: '#8fa7ff', panel: '#161a22', dot: '#ffffff', dotO: 0.14,
     line: '#3a3f4a', green: '#4ade80', btn: '#f4f4f2', btnFg: '#0b0b0c', btn2: '#1c212b',
-    paper: '#12161d', strip: '#1a1f29',
+    paper: '#12161d', strip: '#1a1f29', chip: '#262c38',
   },
 };
 
@@ -103,7 +103,7 @@ function svg(h, t, title, body, css = '', w = W) {
 <title>${esc(title)}</title>
 <style>
 .fg{fill:${c.fg}}.soft{fill:${c.soft}}.muted{fill:${c.muted}}.faint{fill:${c.faint}}.accent{fill:${c.accent}}
-.panel{fill:${c.panel}}.green{fill:${c.green}}.btn{fill:${c.btn}}.btnfg{fill:${c.btnFg}}.btn2{fill:${c.btn2}}.paper{fill:${c.paper}}.strip{fill:${c.strip}}
+.panel{fill:${c.panel}}.green{fill:${c.green}}.btn{fill:${c.btn}}.btnfg{fill:${c.btnFg}}.btn2{fill:${c.btn2}}.paper{fill:${c.paper}}.strip{fill:${c.strip}}.chip{fill:${c.chip}}
 .s-accent{stroke:${c.accent}}.s-muted{stroke:${c.muted}}.s-fg{stroke:${c.fg}}.s-line{stroke:${c.line}}.s-btnfg{stroke:${c.btnFg}}
 .ico{fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 .in{animation:rise .7s ${EASE} both;animation-delay:calc(var(--i,0)*70ms)}
@@ -257,6 +257,8 @@ ${text('say hello', 776, 55, F.hand, 22, 'muted', { anchor: 'end' })}
 
 // ---- headings -------------------------------------------------------------
 const HEADS = {
+  now: ['What I’m building ', 'now', 'the day job'],
+  help: ['How I can ', 'help', 'six ways to start'],
   work: ['Things I’ve ', 'built', 'side projects & open source'],
   path: ['The path so ', 'far', 'the next chapter is underway'],
   stack: ['The stack I ship ', 'with', 'not a logo wall'],
@@ -368,68 +370,202 @@ function work(p) {
   };
 }
 
+// ---- tiles, icons, chips ----------------------------------------------------
+// The shared language of the page: a field of colour, one drawn icon, one small movement.
+const FIELD = { blue: '#2d5cff', green: '#128a4b', warm: '#c8552b', purple: '#6a50c7', pink: '#c04a7f' };
+const ICON = {
+  layers: 'M12 3 3 8l9 5 9-5-9-5zM3 12.500l9 5 9-5M3 17l9 5 9-5',
+  phone: 'M8 2.500h8a2 2 0 0 1 2 2v15a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2v-15a2 2 0 0 1 2-2zM10.500 18.500h3',
+  code: 'M8 7l-5 5 5 5M16 7l5 5-5 5M13.500 5l-3 14',
+  cap: 'M2 9l10-5 10 5-10 5L2 9zM6 11.500V16c0 1.500 2.700 3 6 3s6-1.500 6-3v-4.500M22 9v5',
+  flask: 'M9 3h6M10 3v6l-5.500 9a2 2 0 0 0 1.700 3h11.600a2 2 0 0 0 1.700-3L14 9V3M7.500 15h9',
+  db: 'M4 6c0-1.700 3.600-3 8-3s8 1.300 8 3-3.600 3-8 3-8-1.300-8-3zM4 6v6c0 1.700 3.600 3 8 3s8-1.300 8-3V6M4 12v6c0 1.700 3.600 3 8 3s8-1.300 8-3v-6',
+  cube: 'M12 3l8 4.500v9L12 21l-8-4.500v-9L12 3zM12 12l8-4.500M12 12v9M12 12L4 7.500',
+  bezier: 'M4 20C8 8 16 16 20 4M4 20h.01M20 4h.01M2.500 18.500h3v3h-3zM18.500 2.500h3v3h-3z',
+  browser: 'M3 5h18v14H3zM3 9h18M6 7h.01M8.500 7h.01',
+  server: 'M4 4h16v6H4zM4 14h16v6H4zM7.500 7h.01M7.500 17h.01',
+  bag: 'M5 8h14l-1 12H6L5 8zM9 8V6a3 3 0 0 1 6 0v2',
+  search: 'M11 4a7 7 0 1 0 0 14 7 7 0 0 0 0-14zM20 20l-4-4',
+  bloch: 'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM3 12c0 1.700 4 3 9 3s9-1.300 9-3M12 12l5-6',
+  spark: 'M12 3c.600 5 3.400 8.400 9 9-5.600.600-8.400 4-9 9-.600-5-3.400-8.400-9-9 5.600-.600 8.400-4 9-9z',
+  terminal: 'M3 5h18v14H3zM7 10l3 2.500L7 15M12.500 15h4',
+  nodes: 'M5 6a2 2 0 1 0 4 0 2 2 0 0 0-4 0zM15 6a2 2 0 1 0 4 0 2 2 0 0 0-4 0zM10 18a2 2 0 1 0 4 0 2 2 0 0 0-4 0zM9 6h6M8 8l3 8M16 8l-3 8',
+  chip: 'M7 7h10v10H7zM10 3v4M14 3v4M10 17v4M14 17v4M3 10h4M3 14h4M17 10h4M17 14h4',
+  swap: 'M4 9h14l-4-4M20 15H6l4 4',
+};
+const TILE_CSS = `.tw{fill:none;stroke:#fff;stroke-width:1.700;stroke-linecap:round;stroke-linejoin:round}.ti{fill:none;stroke-width:1.700;stroke-linecap:round;stroke-linejoin:round}
+.ic{transform-box:fill-box;transform-origin:center;animation:ic 5.600s ${EASE} infinite}
+@keyframes ic{0%,18%,100%{transform:none}8%{transform:scale(1.160) rotate(-5deg)}}
+.chipin{animation:chipin .5s ${EASE} both}@keyframes chipin{from{opacity:0;transform:translateY(6px)}}`;
+function tile(x, y, s, color, icon, i = 0, r = 12) {
+  const ink = color === 'ink';
+  const k = (s * 0.5) / 24, o = (s - 24 * k) / 2;
+  return `<rect ${ink ? 'class="btn"' : `fill="${FIELD[color]}"`} x="${x}" y="${y}" width="${s}" height="${s}" rx="${r}"/>
+<g transform="translate(${n(x + o)} ${n(y + o)}) scale(${n(k)})"><path class="ic ${ink ? 'ti s-btnfg' : 'tw'}" style="animation-delay:${n(0.6 + i * 0.4)}s" d="${ICON[icon]}"/></g>`;
+}
+function chips(items, x, y, maxW, { size = 12.5, h = 24, pad = 9, gap = 6, base = 0 } = {}) {
+  let cx = x, cy = y, out = '';
+  items.forEach((it, i) => {
+    const w = width(it, F.medium, size) + pad * 2;
+    if (cx + w > x + maxW && cx > x) { cx = x; cy += h + gap; }
+    out += `<g class="chipin" style="animation-delay:${base + i * 35}ms"><rect class="chip" x="${n(cx)}" y="${cy}" width="${n(w)}" height="${h}" rx="${h / 2}"/>${text(it, cx + pad, cy + h / 2 + size * 0.36, F.medium, size, 'fg')}</g>`;
+    cx += w + gap;
+  });
+  return { svg: out, height: cy - y + h };
+}
+
+// ---- what I'm building now --------------------------------------------------
+function now(t) {
+  const H = 188, T = 188, L = T + 26, R = W - 26;
+  const sat = [0, 1, 2, 3, 4].map((k) => {
+    const a = (Math.PI * 2 * k) / 5 - Math.PI / 2;
+    return [n(94 + 58 * Math.cos(a)), n(94 + 58 * Math.sin(a))];
+  });
+  let b = `<defs><clipPath id="card"><rect width="${W}" height="${H}" rx="16"/></clipPath></defs>
+<g clip-path="url(#card)"><rect class="panel" width="${W}" height="${H}"/><rect width="${T}" height="${H}" fill="${FIELD.blue}"/>
+<g class="hub">${sat.map(([x, y]) => `<path class="flow" d="M94 94L${x} ${y}"/>`).join('')}
+${sat.map(([x, y], k) => `<circle class="sat" style="animation-delay:${k * 0.5}s" cx="${x}" cy="${y}" r="9"/>`).join('')}
+<circle fill="#fff" cx="94" cy="94" r="17"/><circle fill="${FIELD.blue}" cx="94" cy="94" r="6"/></g></g>`;
+  b += `<g class="in" style="--i:1">${text('TAM Digital Platform', L, 42, F.bold, 24, 'fg', { ls: -0.03 })}</g>`;
+  const when = '2026 — now', ww = width(when, F.mono, 13);
+  b += `<g class="in" style="--i:2"><circle class="green ping" cx="${n(R - ww - 12)}" cy="36" r="4"/><circle class="green" cx="${n(R - ww - 12)}" cy="36" r="4"/>${text(when, R, 40.500, F.mono, 13, 'muted', { anchor: 'end' })}</g>`;
+  b += `<g class="in" style="--i:2">${runs([
+    { t: 'Tech Lead & AI Systems Architect', f: F.italic, size: 19, cls: 'soft' },
+    { t: '   ·   ', f: F.sans, size: 14, cls: 'faint' },
+    { t: 'Ton avenir au maroc, Souss Massa Technopark', f: F.sans, size: 14, cls: 'muted' },
+  ], L, 68).svg}</g>`;
+  const desc = 'A multi-company platform that centralises business operations, makes collaboration easier and automates the work in between. I lead its architecture, its AI integration and its delivery.';
+  wrap(desc.split(' '), F.sans, 15, R - L).forEach((line, i) => {
+    b += `<g class="in" style="--i:${3 + i}">${text(line.join(' '), L, 98 + i * 22, F.sans, 15, 'soft')}</g>`;
+  });
+  b += chips(['System architecture', 'AI integration', 'Requirements engineering', 'Agile delivery', 'Automation'], L, 140, R - L, { base: 500 }).svg;
+  const css = `${TILE_CSS}
+.flow{fill:none;stroke:#fff;stroke-width:2.500;stroke-linecap:round;stroke-dasharray:1 9;animation:flow 1.400s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-20}}
+.sat{fill:#fff;transform-box:fill-box;transform-origin:center;animation:sat 2.500s ease-in-out infinite}
+@keyframes sat{0%,30%,100%{transform:none}14%{transform:scale(1.350)}}
+.hub{transform-box:fill-box;transform-origin:center;animation:motif .9s ${EASE} .1s both}@keyframes motif{from{opacity:0;transform:scale(.8) rotate(-20deg)}}`;
+  return svg(H, t, `TAM Digital Platform. Tech Lead and AI Systems Architect at Ton avenir au maroc, Souss Massa Technopark, since 2026. ${desc}`, b, css);
+}
+
 // ---- the path so far ------------------------------------------------------
 const PATH = [
-  ['2026', 'now', 'Tech Lead & AI Systems Architect', 'Ton avenir au maroc', 'Souss Massa Technopark, Agadir'],
-  ['2026', '', 'Full-Stack Web & Mobile Intern', 'Larmo', 'Casablanca'],
-  ['2025', '', 'Full-Stack Developer Intern', 'NJT Group', 'Marrakech'],
-  ['2024', '2026', 'Full-Stack Developer Program', 'YouCode, UM6P', 'Youssoufia'],
-  ['2023', '2024', 'Baccalauréat, Physical Sciences', 'Arij Almaarifa', 'Sidi Bibi'],
+  { when: '2026 — now', role: 'Tech Lead & AI Systems Architect', org: 'Ton avenir au maroc', place: 'Agadir', color: 'blue', icon: 'layers',
+    desc: 'Leading the architecture, AI integration and delivery of the TAM Digital Platform.',
+    tags: ['System architecture', 'AI integration', 'Technical leadership', 'Automation'] },
+  { when: 'Apr — Jul 2026', role: 'Full-Stack Web & Mobile Developer, intern', org: 'Larmo', place: 'Casablanca', color: 'warm', icon: 'phone',
+    desc: 'Designed and built StoreezCOD for web and mobile, on a scalable backend.',
+    tags: ['Nest.js', 'Next.js', 'TypeScript', 'Docker', 'AWS'] },
+  { when: 'May — Jul 2025', role: 'Full-Stack Developer, intern', org: 'NJT Group', place: 'Marrakech', color: 'green', icon: 'code',
+    desc: 'Built and maintained web applications alongside senior developers.',
+    tags: ['Laravel', 'React', 'Code review', 'Scrum'] },
+  { when: '2024 — 2026', role: 'Full-Stack Developer Program, graduated', org: 'YouCode, UM6P', place: 'Youssoufia', color: 'purple', icon: 'cap',
+    desc: 'Two intensive, project-based years: from algorithms to deployed full-stack apps.',
+    tags: ['MERN', 'Laravel', 'Vue.js', 'Agile'] },
+  { when: '2023 — 2024', role: 'Baccalauréat, Physical Sciences', org: 'Arij Almaarifa', place: 'Sidi Bibi', color: 'ink', icon: 'flask',
+    desc: 'A foundation in analytical thinking, before software.',
+    tags: [] },
 ];
 function path(t) {
-  const pitch = 62, top = 26, X = 124, yEnd = top + pitch * (PATH.length - 1), H = yEnd + 44;
-  let b = `<path class="s-line rail" pathLength="1" fill="none" stroke-width="1.500" stroke-linecap="round" d="M${X} ${yEnd}V${top}"/>
-<circle class="accent climb" cx="${X}" cy="${yEnd}" r="3"/>`;
-  PATH.forEach(([y1, y2, role, org, place], i) => {
+  const pitch = 104, S = 40, X = 150, TX = X + 38, top = 4;
+  const H = top + pitch * (PATH.length - 1) + 72;
+  const y0 = top + S / 2, y1 = top + pitch * (PATH.length - 1) + S / 2;
+  let b = `<path class="s-line rail" pathLength="1" fill="none" stroke-width="1.500" stroke-linecap="round" d="M${X} ${y1}V${y0}"/>
+<circle class="accent climb" cx="${X}" cy="${y1}" r="3"/>`;
+  PATH.forEach((p, i) => {
     const y = top + pitch * i;
-    const label = y2 ? `${y1} — ${y2}` : y1;
     b += `<g class="in" style="--i:${(PATH.length - 1 - i) * 2}">`;
-    b += text(label, X - 22, y + 5, F.mono, 13.5, i ? 'muted' : 'fg', { anchor: 'end' });
-    if (!i) b += `<circle class="accent ping" cx="${X}" cy="${y}" r="5.500"/>`;
-    b += `<circle class="${i ? 'fg' : 'accent'}" cx="${X}" cy="${y}" r="${i ? 3.5 : 5.5}"/>`;
-    b += text(role, X + 24, y + 6, F.bold, 18, 'fg', { ls: -0.025 });
+    b += text(p.when, X - 34, y + 25, F.mono, 13, i ? 'muted' : 'fg', { anchor: 'end' });
+    b += tile(X - S / 2, y, S, p.color, p.icon, i, 11);
+    b += text(p.role, TX, y + 17, F.bold, 17, 'fg', { ls: -0.025 });
     b += runs([
-      { t: org, f: F.italic, size: 18, cls: 'soft' },
-      { t: '   ·   ', f: F.sans, size: 14, cls: 'faint' },
-      { t: place, f: F.sans, size: 14, cls: 'muted' },
-    ], X + 24, y + 29).svg;
+      { t: p.org, f: F.italic, size: 17.5, cls: 'soft' },
+      { t: '   ·   ', f: F.sans, size: 13.5, cls: 'faint' },
+      { t: p.place, f: F.sans, size: 13.5, cls: 'muted' },
+    ], TX, y + 39).svg;
+    b += text(p.desc, TX, y + 61, F.sans, 14, 'soft');
     b += `</g>`;
+    if (p.tags.length) {
+      const st = [];
+      p.tags.forEach((x, k) => {
+        if (k) st.push({ t: '   ·   ', f: F.sans, size: 12.5, cls: 'faint' });
+        st.push({ t: x, f: F.medium, size: 12.5, cls: 'muted' });
+      });
+      b += `<g class="in" style="--i:${(PATH.length - 1 - i) * 2 + 1}">${runs(st, TX, y + 81).svg}</g>`;
+    }
   });
-  const css = `
+  const css = `${TILE_CSS}
 .rail{stroke-dasharray:1;animation:draw 1.400s ${EASE} both}
 .climb{animation:climb 4.500s ${EASE} 1.500s infinite both}
-@keyframes climb{0%{opacity:0;transform:none}8%{opacity:1}80%{opacity:1;transform:translateY(${-(yEnd - top)}px)}90%,100%{opacity:0;transform:translateY(${-(yEnd - top)}px)}}
+@keyframes climb{0%{opacity:0;transform:none}8%{opacity:1}80%{opacity:1;transform:translateY(${-(y1 - y0)}px)}90%,100%{opacity:0;transform:translateY(${-(y1 - y0)}px)}}
 @media (prefers-reduced-motion:reduce){.climb{opacity:0}}`;
-  const alt = PATH.map(([a, z, r, o, p]) => `${a}${z ? ' to ' + z : ''}: ${r}, ${o}, ${p}`).join('. ');
-  return svg(H, t, `The path so far. ${alt}.`, b, css);
+  const alt = PATH.map((p) => `${p.when}: ${p.role}, ${p.org}, ${p.place}. ${p.desc}`).join(' ');
+  return svg(H, t, `The path so far. ${alt}`, b, css);
 }
 
 // ---- the stack ------------------------------------------------------------
 const STACK = [
-  ['Languages & frameworks', ['Laravel', 'React', 'Vue.js', 'Next.js', 'NestJS', 'Node.js', 'React Native', 'TypeScript', 'PHP', 'Python', 'Tailwind CSS']],
-  ['Data & APIs', ['PostgreSQL', 'MySQL', 'MongoDB', 'REST', 'GraphQL', 'Prisma']],
-  ['Tooling & delivery', ['Git & GitHub', 'Docker', 'AWS', 'Vercel', 'CI/CD', 'Postman', 'Jira']],
-  ['Design & modelling', ['Figma', 'UML', 'Merise', 'StarUML', 'Photoshop']],
+  ['Languages & frameworks', 'what the products are written in', 'blue', 'code', ['Laravel', 'React', 'Vue.js', 'Next.js', 'NestJS', 'Node.js', 'React Native', 'TypeScript', 'PHP', 'Python', 'Tailwind CSS']],
+  ['Data & APIs', 'where the data lives and how it travels', 'green', 'db', ['PostgreSQL', 'MySQL', 'MongoDB', 'REST', 'GraphQL', 'Prisma']],
+  ['Tooling & delivery', 'how it gets to production', 'warm', 'cube', ['Git & GitHub', 'Docker', 'AWS', 'Vercel', 'CI/CD', 'Postman', 'Jira']],
+  ['Design & modelling', 'how it is thought through first', 'purple', 'bezier', ['Figma', 'UML', 'Merise', 'StarUML', 'Photoshop']],
 ];
 function stack(t) {
-  const X = 236, size = 16, lh = 28, gap = 16, SEP = '   ·   ';
-  let y = 24, b = '', k = 0;
-  STACK.forEach(([title, items], g) => {
-    const lines = wrap(items, F.medium, size, W - X, SEP);
-    b += `<g class="in" style="--i:${g * 2}">${text(title, 0, y, F.italic, 21, 'muted')}</g>`;
-    lines.forEach((line, li) => {
-      let cx = X;
-      line.forEach((w, i) => {
-        if (i) { b += text(SEP, cx, y + li * lh, F.sans, size, 'faint'); cx += width(SEP, F.sans, size); }
-        b += `<g class="lt" style="animation-delay:${120 + k++ * 28}ms">${text(w, cx, y + li * lh, F.medium, size, 'fg')}</g>`;
-        cx += width(w, F.medium, size);
-      });
-    });
-    y += lines.length * lh + gap;
+  const S = 56, X = S + 20;
+  let y = 0, b = '';
+  STACK.forEach(([title, why, color, icon, items], g) => {
+    b += `<g class="in" style="--i:${g * 2}">${tile(0, y, S, color, icon, g, 14)}`;
+    b += runs([
+      { t: title, f: F.bold, size: 16.5, cls: 'fg', ls: -0.02 },
+      { t: '   ', f: F.sans, size: 14, cls: 'faint' },
+      { t: why, f: F.italic, size: 17, cls: 'muted' },
+    ], X, y + 19).svg + `</g>`;
+    const c = chips(items, X, y + 31, W - X, { base: 200 + g * 140 });
+    b += c.svg;
+    y += Math.max(S, 31 + c.height) + 22;
   });
-  const alt = STACK.map(([a, i]) => `${a}: ${i.join(', ')}`).join('. ');
-  return svg(y - gap - 10, t, `The stack I ship with. ${alt}.`, b);
+  const alt = STACK.map(([a, , , , i]) => `${a}: ${i.join(', ')}`).join('. ');
+  return svg(y - 22, t, `The stack I ship with. ${alt}.`, b, TILE_CSS);
 }
+
+// ---- grids: certifications and services -----------------------------------
+function grid(cards, title) {
+  return (t) => {
+    const cols = 3, gap = 12, cw = (W - gap * (cols - 1)) / cols, ch = 96, S = 48;
+    let b = '';
+    cards.forEach((c, i) => {
+      const x = n((i % cols) * (cw + gap)), y = Math.floor(i / cols) * (ch + gap);
+      const tx = x + 16 + S + 14, tw = cw - (16 + S + 14) - 12;
+      const tl = wrap(c.title.split(' '), F.bold, 14.5, tw).slice(0, 2);
+      const bl = wrap(c.body.split(' '), F.sans, 12.5, tw).slice(0, tl.length > 1 ? 1 : 2);
+      const bh = tl.length * 18 + 4 + bl.length * 16;
+      let ty = y + (ch - bh) / 2 + 13;
+      b += `<g class="in" style="--i:${i}"><rect class="panel" x="${x}" y="${y}" width="${n(cw)}" height="${ch}" rx="14"/>${tile(x + 16, y + (ch - S) / 2, S, c.color, c.icon, i, 12)}`;
+      tl.forEach((l) => { b += text(l.join(' '), tx, ty, F.bold, 14.5, 'fg', { ls: -0.02 }); ty += 18; });
+      ty += 3;
+      bl.forEach((l) => { b += text(l.join(' '), tx, ty, F.sans, 12.5, 'muted'); ty += 16; });
+      b += `</g>`;
+    });
+    const rows = Math.ceil(cards.length / cols);
+    return svg(rows * ch + (rows - 1) * gap, t, `${title} ${cards.map((c) => `${c.title}: ${c.body}`).join('. ')}.`, b, TILE_CSS);
+  };
+}
+const CERTS = [
+  { title: 'Quantum Machine Learning', body: 'IBM  ·  Oct 2026', color: 'pink', icon: 'bloch' },
+  { title: 'Google AI Professional Certificate', body: 'Google  ·  Jun 2026', color: 'blue', icon: 'spark' },
+  { title: 'Claude Code in Action', body: 'Anthropic  ·  Jan 2026', color: 'warm', icon: 'terminal' },
+  { title: 'Model Context Protocol: Advanced Topics', body: 'Anthropic  ·  Jan 2026', color: 'purple', icon: 'nodes' },
+  { title: 'Arduino: Foundations', body: 'LinkedIn Learning  ·  Apr 2026', color: 'green', icon: 'chip' },
+  { title: 'Postman API Fundamentals Student Expert', body: 'Postman  ·  Mar 2025', color: 'ink', icon: 'swap' },
+];
+const SERVICES = [
+  { title: 'Frontend development', body: 'Responsive interfaces in React and Vue.js.', color: 'blue', icon: 'browser' },
+  { title: 'Backend development', body: 'Secure APIs and databases, Laravel and Node.js.', color: 'green', icon: 'server' },
+  { title: 'Full-stack development', body: 'Complete applications, from UI to deployment.', color: 'purple', icon: 'layers' },
+  { title: 'Mobile apps', body: 'One codebase for iOS and Android, with React Native.', color: 'warm', icon: 'phone' },
+  { title: 'E-commerce', body: 'Stores with payments, inventory and dashboards.', color: 'pink', icon: 'bag' },
+  { title: 'Consulting & review', body: 'Architecture guidance and code reviews.', color: 'ink', icon: 'search' },
+];
 
 // ---- a year in dots -------------------------------------------------------
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
@@ -437,13 +573,23 @@ function year(data) {
   return (t) => {
     const PX = 32, weeks = data.days;
     const pitch = (W - PX * 2) / weeks.length;
-    const counts = weeks.flat().map((d) => d[1]).filter(Boolean).sort((a, b) => a - b);
+    const flat = weeks.flat();
+    const counts = flat.map((d) => d[1]).filter(Boolean).sort((a, b) => a - b);
     const q = (p) => counts[Math.min(counts.length - 1, Math.floor(counts.length * p))] || 1;
     const cuts = [q(0.25), q(0.5), q(0.75)];
     const level = (v) => (v === 0 ? 0 : v <= cuts[0] ? 1 : v <= cuts[1] ? 2 : v <= cuts[2] ? 3 : 4);
     const R = [1.300, 2.600, 3.700, 4.800, 5.900], O = [0.38, 0.62, 0.76, 0.9, 1];
 
-    const top = 132, H = n(top + pitch * 7 + 58);
+    // Three plain facts read off the same calendar
+    const active = counts.length;
+    const best = flat.reduce((a, d) => (d[1] > a[1] ? d : a), flat[0]);
+    const bd = new Date(best[0] + 'T00:00:00Z');
+    let streak = 0;
+    for (let i = flat.length - 1; i >= 0; i--) {
+      if (flat[i][1] > 0) streak++; else if (i === flat.length - 1) continue; else break;
+    }
+
+    const top = 132, foot = top + pitch * 7 + 24, H = n(foot + 62);
     const total = odo(data.total.toLocaleString('en-US'), PX - 2, 76, F.bold, 54, 'w', 'y', { ls: -0.04, delay: 200 });
     let b = `<rect width="${W}" height="${H}" rx="18" fill="#2d5cff"/>${total.svg}
 <g class="in" style="--i:3">${text('contributions', PX + total.width + 14, 76, F.italic, 32, 'w')}</g>
@@ -463,16 +609,32 @@ function year(data) {
       const first = new Date(wk[0][0] + 'T00:00:00Z');
       const m = first.getUTCMonth();
       if (m !== lastMonth && x < weeks.length - 2) {
-        if (lastMonth !== -1 || first.getUTCDate() <= 7) labels += text(MONTHS[m], PX + pitch * x + 1, top + pitch * 7 + 24, F.sans, 13, 'w', { extra: 'fill-opacity=".85"' });
+        if (lastMonth !== -1 || first.getUTCDate() <= 7) labels += text(MONTHS[m], PX + pitch * x + 1, foot, F.sans, 13, 'w', { extra: 'fill-opacity=".85"' });
         lastMonth = m;
       }
     });
     b += today + labels;
+
+    // Facts on the left, the key on the right
+    const facts = runs([
+      { t: String(active), f: F.bold, size: 14, cls: 'w' }, { t: ' active days', f: F.sans, size: 14, cls: 'w' },
+      { t: '      ', f: F.sans, size: 14, cls: 'w' },
+      { t: String(best[1]), f: F.bold, size: 14, cls: 'w' }, { t: ` on the busiest, ${bd.getUTCDate()} ${MONTHS[bd.getUTCMonth()]} ${bd.getUTCFullYear()}`, f: F.sans, size: 14, cls: 'w' },
+      { t: '      ', f: F.sans, size: 14, cls: 'w' },
+      { t: String(streak), f: F.bold, size: 14, cls: 'w' }, { t: streak === 1 ? ' day in the current streak' : ' days in the current streak', f: F.sans, size: 14, cls: 'w' },
+    ], PX, foot + 36);
+    b += `<g class="in" style="--i:9">${facts.svg}</g>`;
+    const kx = W - PX;
+    b += `<g class="in" style="--i:10">${text('more', kx, foot + 36, F.sans, 13, 'w', { anchor: 'end', extra: 'fill-opacity=".85"' })}`;
+    const mw = width('more', F.sans, 13);
+    R.slice().reverse().forEach((r, i) => { b += `<circle class="w" cx="${n(kx - mw - 14 - i * 15)}" cy="${foot + 31.5}" r="${r}" fill-opacity="${O[4 - i]}"/>`; });
+    b += text('less', kx - mw - 14 - 4 * 15 - 12, foot + 36, F.sans, 13, 'w', { anchor: 'end', extra: 'fill-opacity=".85"' }) + `</g>`;
+
     const css = `.w{fill:#fff}.col{animation:pop .5s ${EASE} both}@keyframes pop{from{opacity:0;transform:translateY(8px)}}
 .today{fill:none;stroke:#fff;stroke-width:1.500;transform-box:fill-box;transform-origin:center;animation:today 2.400s ease-out 1.500s infinite both}
 @keyframes today{from{opacity:.9;transform:scale(.6)}80%,to{opacity:0;transform:scale(2.200)}}
 @media (prefers-reduced-motion:reduce){.today{opacity:0}}`;
-    return svg(H, t, `${data.total} contributions in the last twelve months, across ${data.repos} public repositories and ${data.stars} stars. Each dot is a day; larger dots are busier days.`, b, css);
+    return svg(H, t, `${data.total} contributions in the last twelve months, across ${data.repos} public repositories and ${data.stars} stars. ${active} active days, ${best[1]} contributions on the busiest day, ${streak} days in the current streak. Each dot is a day; larger dots are busier days.`, b, css);
   };
 }
 
@@ -526,7 +688,10 @@ const data = await loadData();
 emit('hero', hero(data));
 for (const [k, [a, i, note]] of Object.entries(HEADS)) emit(`head-${k}`, heading(a, i, note));
 for (const p of WORK) emit(`work-${p.slug}`, work(p));
+emit('now', now);
 emit('path', path);
+emit('certs', grid(CERTS, 'Recent certifications.'));
+emit('services', grid(SERVICES, 'Services.'));
 emit('stack', stack);
 emit('year', year(data));
 for (const [k, label, primary] of BUTTONS) emit(`btn-${k}`, button(label, primary));
