@@ -98,7 +98,7 @@ ${pic('year', 'My GitHub contributions over the last twelve months, one dot per 
 
 <br>
 
-${pic('close', 'Let’s build something worth shipping. Usually a reply within 24 hours.')}
+${link('https://baalla.tech/', 'close', 'Let’s build something worth shipping. Usually a reply within 24 hours.')}
 
 Open to ambitious collaborations, technical partnerships and select freelance builds. Tell me the shape of the problem; if it is not a fit, I will say so and point you somewhere better.
 
@@ -106,10 +106,6 @@ Open to ambitious collaborations, technical partnerships and select freelance bu
 ${btn('mailto:abdelhakimbaalla50@gmail.com?subject=Hello%20Abdelhakim', 'hello', 'Start a conversation')}
 ${btn('https://baalla.tech/services.html', 'services', 'See services')}
 </p>
-
-<br>
-
-${link('https://baalla.tech/', 'footer', 'Baâlla.')}
 `;
 writeFileSync(new URL('../README.md', import.meta.url), md);
 console.log('README.md written');

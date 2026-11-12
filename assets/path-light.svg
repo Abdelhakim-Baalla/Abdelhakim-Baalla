@@ -2,7 +2,7 @@
 <title>The path so far. 2026 to now: Tech Lead &amp; AI Systems Architect, Ton avenir au maroc, Souss Massa Technopark, Agadir. 2026: Full-Stack Web &amp; Mobile Intern, Larmo, Casablanca. 2025: Full-Stack Developer Intern, NJT Group, Marrakech. 2024 to 2026: Full-Stack Developer Program, YouCode, UM6P, Youssoufia. 2023 to 2024: Baccalauréat, Physical Sciences, Arij Almaarifa, Sidi Bibi.</title>
 <style>
 .fg{fill:#0b0b0c}.soft{fill:#3d3d42}.muted{fill:#63636b}.faint{fill:#9a9aa1}.accent{fill:#2d5cff}
-.panel{fill:#f4f4f1}.green{fill:#128a4b}.btn{fill:#0b0b0c}.btnfg{fill:#fbfbfa}.btn2{fill:#f0f0ed}
+.panel{fill:#f4f4f1}.green{fill:#128a4b}.btn{fill:#0b0b0c}.btnfg{fill:#fbfbfa}.btn2{fill:#f0f0ed}.paper{fill:#f6f6f3}.strip{fill:#ecece8}
 .s-accent{stroke:#2d5cff}.s-muted{stroke:#63636b}.s-fg{stroke:#0b0b0c}.s-line{stroke:#d5d5d0}.s-btnfg{stroke:#fbfbfa}
 .ico{fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .in{animation:rise .8s cubic-bezier(0.16,1,0.3,1) both;animation-delay:calc(var(--i,0)*80ms)}

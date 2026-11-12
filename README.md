@@ -82,7 +82,7 @@ Each one can be verified on [LinkedIn](https://www.linkedin.com/in/abdelhakimbaa
 
 <br>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/close-dark.svg"><img src="assets/close-light.svg" alt="Let’s build something worth shipping. Usually a reply within 24 hours." width="100%"></picture>
+<a href="https://baalla.tech/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/close-dark.svg"><img src="assets/close-light.svg" alt="Let’s build something worth shipping. Usually a reply within 24 hours." width="100%"></picture></a>
 
 Open to ambitious collaborations, technical partnerships and select freelance builds. Tell me the shape of the problem; if it is not a fit, I will say so and point you somewhere better.
 
@@ -90,7 +90,3 @@ Open to ambitious collaborations, technical partnerships and select freelance bu
 <a href="mailto:abdelhakimbaalla50@gmail.com?subject=Hello%20Abdelhakim"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-hello-dark.svg"><img src="assets/btn-hello-light.svg" alt="Start a conversation" height="42"></picture></a>
 <a href="https://baalla.tech/services.html"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-services-dark.svg"><img src="assets/btn-services-light.svg" alt="See services" height="42"></picture></a>
 </p>
-
-<br>
-
-<a href="https://baalla.tech/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg"><img src="assets/footer-light.svg" alt="Baâlla." width="100%"></picture></a>

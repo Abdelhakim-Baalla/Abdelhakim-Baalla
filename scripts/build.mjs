@@ -27,12 +27,12 @@ const THEMES = {
   light: {
     fg: '#0b0b0c', soft: '#3d3d42', muted: '#63636b', faint: '#9a9aa1',
     accent: '#2d5cff', panel: '#f4f4f1', dot: '#0b0b0c', dotO: 0.13,
-    line: '#d5d5d0', green: '#128a4b', btn: '#0b0b0c', btnFg: '#fbfbfa', btn2: '#f0f0ed',
+    line: '#d5d5d0', green: '#128a4b', btn: '#0b0b0c', btnFg: '#fbfbfa', btn2: '#f0f0ed', paper: '#f6f6f3', strip: '#ecece8',
   },
   dark: {
     fg: '#f4f4f2', soft: '#d3d3d6', muted: '#a1a1a8', faint: '#6f6f77',
     accent: '#8fa7ff', panel: '#161a22', dot: '#ffffff', dotO: 0.14,
-    line: '#3a3f4a', green: '#4ade80', btn: '#f4f4f2', btnFg: '#0b0b0c', btn2: '#1c212b',
+    line: '#3a3f4a', green: '#4ade80', btn: '#f4f4f2', btnFg: '#0b0b0c', btn2: '#1c212b', paper: '#12161d', strip: '#1a1f29',
   },
 };
 
@@ -77,7 +77,7 @@ function svg(h, t, title, body, css = '', w = W) {
 <title>${esc(title)}</title>
 <style>
 .fg{fill:${c.fg}}.soft{fill:${c.soft}}.muted{fill:${c.muted}}.faint{fill:${c.faint}}.accent{fill:${c.accent}}
-.panel{fill:${c.panel}}.green{fill:${c.green}}.btn{fill:${c.btn}}.btnfg{fill:${c.btnFg}}.btn2{fill:${c.btn2}}
+.panel{fill:${c.panel}}.green{fill:${c.green}}.btn{fill:${c.btn}}.btnfg{fill:${c.btnFg}}.btn2{fill:${c.btn2}}.paper{fill:${c.paper}}.strip{fill:${c.strip}}
 .s-accent{stroke:${c.accent}}.s-muted{stroke:${c.muted}}.s-fg{stroke:${c.fg}}.s-line{stroke:${c.line}}.s-btnfg{stroke:${c.btnFg}}
 .ico{fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .in{animation:rise .8s ${EASE} both;animation-delay:calc(var(--i,0)*80ms)}
@@ -129,56 +129,62 @@ async function loadData() {
 
 // ---- hero -----------------------------------------------------------------
 const PHRASES = ['production web apps.', 'considered interfaces.', 'reliable APIs.', 'open-source tools.', 'things that last.'];
-function hero(t, c) {
-  const H = 452;
-  const portrait = readFileSync(join(ROOT, 'scripts', 'portrait.jpg')).toString('base64');
-  let b = `<defs>
-<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r="1.1" fill="${c.dot}" fill-opacity="${c.dotO}"/></pattern>
+const dotsDef = (c) => `<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r="1.1" fill="${c.dot}" fill-opacity="${c.dotO}"/></pattern>`;
+function hero(data) {
+  return (t, c) => {
+    const H = 566, STRIP = 104, PX = 40;
+    const portrait = readFileSync(join(ROOT, 'scripts', 'portrait.jpg')).toString('base64');
+    let b = `<defs>${dotsDef(c)}
+<clipPath id="card"><rect width="${W}" height="${H}" rx="22"/></clipPath>
 <clipPath id="ph"><rect x="0" y="0" width="236" height="296" rx="2"/></clipPath>
 <filter id="lift" x="-30%" y="-20%" width="160%" height="160%"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#101014" flood-opacity="${t === 'dark' ? 0.6 : 0.2}"/></filter>
 </defs>
-<rect width="${W}" height="${H}" fill="url(#dots)"/>`;
+<g clip-path="url(#card)"><rect class="paper" width="${W}" height="${H}"/><rect width="${W}" height="${H - STRIP}" fill="url(#dots)"/><rect class="strip" y="${H - STRIP}" width="${W}" height="${STRIP}"/></g>
+<g transform="translate(${PX} 14)">`;
 
-  // Name
-  const s1 = 100;
-  b += `<g class="in" style="--i:0">${text('Abdelhakim', -4, 128, F.bold, s1, 'fg', { ls: -0.04 })}</g>`;
-  const baw = width('Baâlla', F.italic, 118, -0.01);
-  b += `<g class="in" style="--i:1">${text('Baâlla', -2, 236, F.italic, 118, 'fg', { ls: -0.01 })}
+    b += `<g class="in" style="--i:0">${text('Abdelhakim', -4, 128, F.bold, 100, 'fg', { ls: -0.04 })}</g>`;
+    const baw = width('Baâlla', F.italic, 118, -0.01);
+    b += `<g class="in" style="--i:1">${text('Baâlla', -2, 236, F.italic, 118, 'fg', { ls: -0.01 })}
 <rect class="accent sq" x="${n(baw + 6)}" y="220" width="16" height="16"/></g>`;
 
-  // The line that rewrites itself
-  const lead = 'I build ';
-  const lw = width(lead, F.mono, 23);
-  b += `<g class="in" style="--i:2">${text(lead, 0, 304, F.mono, 23, 'muted')}`;
-  PHRASES.forEach((p, i) => {
-    b += `<g class="swap" style="animation-delay:${i * 3}s">${text(p, lw, 304, F.mono, 23, 'fg')}</g>`;
-  });
-  b += `</g>`;
+    const lead = 'I build ';
+    const lw = width(lead, F.mono, 23);
+    b += `<g class="in" style="--i:2">${text(lead, 0, 302, F.mono, 23, 'muted')}`;
+    PHRASES.forEach((p, i) => {
+      b += `<g class="swap" style="animation-delay:${i * 3}s">${text(p, lw, 302, F.mono, 23, 'fg')}</g>`;
+    });
+    b += `</g>`;
 
-  // Where and what, right now
-  const role = runs([
-    { t: 'Tech Lead & AI Systems Architect', f: F.medium, size: 21, cls: 'fg' },
-    { t: '  at  ', f: F.sans, size: 21, cls: 'muted' },
-    { t: 'Ton avenir au maroc', f: F.medium, size: 21, cls: 'fg' },
-  ], 26, 372);
-  b += `<g class="in" style="--i:3"><circle class="green ping" cx="9" cy="365" r="6"/><circle class="green" cx="9" cy="365" r="6"/>${role.svg}</g>`;
-  b += `<g class="in" style="--i:4"><path class="ico s-muted" transform="translate(-3 394)" d="M12 21s-6.5-5.6-6.5-10.5a6.5 6.5 0 0 1 13 0C18.500 15.400 12 21 12 21zM12 13a2.500 2.500 0 1 0 0-5 2.500 2.500 0 0 0 0 5z"/>
-${text('Agadir, Morocco  ·  GMT+1', 26, 413, F.sans, 21, 'muted')}</g>`;
+    b += `<g class="in" style="--i:3"><circle class="green ping" cx="9" cy="359" r="6"/><circle class="green" cx="9" cy="359" r="6"/>
+${text('Tech Lead & AI Systems Architect', 26, 366, F.medium, 22, 'fg')}
+${runs([{ t: 'at  ', f: F.sans, size: 22, cls: 'muted' }, { t: 'Ton avenir au maroc', f: F.medium, size: 22, cls: 'fg' }, { t: '   ·   Agadir, Morocco', f: F.sans, size: 22, cls: 'muted' }], 26, 398).svg}</g>`;
 
-  // The photograph, as on the portfolio
-  b += `<g class="in" style="--i:2"><g transform="translate(612 104) rotate(2.200 126 160)">
+    b += `<g class="in" style="--i:2"><g transform="translate(556 96) rotate(2.200 126 160)">
 <rect x="0" y="0" width="252" height="320" rx="3" fill="#fbfbfa" filter="url(#lift)"/>
 <g transform="translate(8 8)" clip-path="url(#ph)"><image width="236" height="354" xlink:href="data:image/jpeg;base64,${portrait}" href="data:image/jpeg;base64,${portrait}" preserveAspectRatio="xMidYMin slice"/></g>
 </g></g>`;
 
-  // The note in the margin
-  b += `<g class="note" transform="rotate(-5 760 60)">
+    b += `<g transform="translate(-56 -8)"><g class="note" transform="rotate(-5 760 60)">
 ${text('open to select work,', 846, 46, F.hand, 29, 'muted', { anchor: 'end' })}
 ${text('say hello', 846, 76, F.hand, 29, 'muted', { anchor: 'end' })}
 </g>
-<path class="ico s-muted draw" pathLength="1" d="M812 84c22 2 38 12 44 30m0 0-11-6m11 6 3-12"/>`;
+<path class="ico s-muted draw" pathLength="1" d="M812 84c22 2 38 12 44 30m0 0-11-6m11 6 3-12"/></g>`;
+    b += `</g>`;
 
-  const css = `
+    // The strip: four true figures
+    const cells = [
+      [String(data.repos), 'public repositories'],
+      ['15', 'certifications'],
+      ['4', 'spoken languages'],
+      ['24h', 'typical reply'],
+    ];
+    const cw = (W - PX * 2) / cells.length;
+    cells.forEach(([fig, label], i) => {
+      const x = PX + cw * i, y = H - STRIP;
+      b += `<g class="in" style="--i:${5 + i}">${text(fig, x - 2, y + 52, F.bold, 38, 'fg', { ls: -0.04 })}${text(label, x, y + 80, F.sans, 17, 'muted')}</g>`;
+    });
+
+    const css = `
 .swap{opacity:0;animation:swap 15s ${EASE} infinite both}
 @keyframes swap{0%{opacity:0;transform:translateY(10px)}2.600%{opacity:1;transform:none}17.400%{opacity:1;transform:none}20%,100%{opacity:0;transform:translateY(-10px)}}
 .ping{transform-box:fill-box;transform-origin:center;animation:ping 2.400s ease-out infinite}
@@ -190,18 +196,19 @@ ${text('say hello', 846, 76, F.hand, 29, 'muted', { anchor: 'end' })}
 .draw{stroke-dasharray:1;animation:draw .7s ${EASE} 1.300s both}
 @keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
 @media (prefers-reduced-motion:reduce){.swap{opacity:0}.swap:first-of-type{opacity:1}.ping{opacity:0}}`;
-  return svg(H, t, 'Abdelhakim Baâlla. I build production web apps, considered interfaces, reliable APIs, open-source tools, things that last. Tech Lead and AI Systems Architect at Ton avenir au maroc, Agadir, Morocco. Open to select work.', b, css);
+    return svg(H, t, `Abdelhakim Baâlla. I build production web apps, considered interfaces, reliable APIs, open-source tools, things that last. Tech Lead and AI Systems Architect at Ton avenir au maroc, Agadir, Morocco. Open to select work. ${data.repos} public repositories, 15 certifications, 4 spoken languages, replies within 24 hours.`, b, css);
+  };
 }
 
 // ---- headings -------------------------------------------------------------
 const HEADS = {
-  work: ['Things I’ve ', 'built'],
-  path: ['The path so ', 'far'],
-  stack: ['The stack I ship ', 'with'],
-  proof: ['Proof of ', 'practice'],
-  year: ['A year in ', 'dots'],
+  work: ['Things I’ve ', 'built', 'side projects & open source'],
+  path: ['The path so ', 'far', 'the next chapter is underway'],
+  stack: ['The stack I ship ', 'with', 'not a logo wall'],
+  proof: ['Proof of ', 'practice', 'always one more course'],
+  year: ['A year in ', 'dots', 'redrawn every morning'],
 };
-function heading(a, i) {
+function heading(a, i, note) {
   return (t) => {
     const size = 50;
     const r = runs([
@@ -209,49 +216,79 @@ function heading(a, i) {
       { t: i, f: F.italic, size: size * 1.14, cls: 'fg', ls: -0.01 },
       { t: '.', f: F.bold, size, cls: 'accent' },
     ], -2, 62);
-    return svg(84, t, `${a}${i}.`, `<g class="in">${r.svg}</g>`);
+    const nw = width(note, F.hand, 28);
+    const nx = W - 8 - nw;
+    const b = `<g class="in">${r.svg}</g>
+<g class="note"><g transform="rotate(-3 ${n(nx + nw / 2)} 50)">${text(note, nx, 56, F.hand, 28, 'muted')}</g>
+<path class="ico s-muted" d="M${n(nx - 12)} 56c-10 7-22 7-32-1m0 0 9-1m-9 1 3 9"/></g>`;
+    return svg(84, t, `${a}${i}.`, b, `.note{animation:fade .6s ease-out .5s both}@keyframes fade{from{opacity:0}}`);
   };
 }
 
 // ---- selected work --------------------------------------------------------
+// Each project gets a field of colour and one motif drawn from its subject.
+const ring = (cx, cy, r, count, br) => Array.from({ length: count }, (_, k) => {
+  const a = (Math.PI * 2 * k) / count - Math.PI / 2;
+  return `<circle class="mf" cx="${n(cx + r * Math.cos(a))}" cy="${n(cy + r * Math.sin(a))}" r="${br}"/>`;
+}).join('');
+const qr = () => {
+  const s = 12, ox = 42, oy = 46;
+  const finder = (c, r) => `<rect class="mo" x="${ox + c * s + 2}" y="${oy + r * s + 2}" width="${s * 3 - 4}" height="${s * 3 - 4}" rx="3"/><rect class="mf" x="${ox + c * s + 12}" y="${oy + r * s + 12}" width="12" height="12" rx="1"/>`;
+  const cells = [[3, 0], [3, 2], [4, 3], [6, 3], [3, 4], [5, 4], [4, 5], [6, 5], [3, 6], [5, 6], [0, 3], [2, 3]];
+  return finder(0, 0) + finder(4, 0) + finder(0, 4) + cells.map(([c, r]) => `<rect class="mf" x="${ox + c * s + 1}" y="${oy + r * s + 1}" width="${s - 2}" height="${s - 2}" rx="2"/>`).join('');
+};
+const MOTIF = {
+  sprout: () => `<path class="mo" d="M32 130q52-18 104 0M46 146q38-12 76 0M84 126V80"/><path class="mf" d="M84 98c-22 0-32-12-32-30 20 0 32 10 32 30zM84 84c0-20 12-32 32-32 0 20-12 32-32 32z"/>`,
+  qr,
+  wave: () => [[40, 26], [64, 42], [88, 34], [112, 60]].map(([x, h]) => `<rect class="mf" fill-opacity=".4" x="${x}" y="${136 - h}" width="16" height="${h}" rx="4"/>`).join('') + `<path class="mo" d="M34 84c16-22 30-22 46 0s30 22 54-18"/><circle class="mf" cx="134" cy="66" r="6"/>`,
+  crescent: () => `<path class="mf" d="M96 36a32 32 0 1 0 24 50 26 26 0 1 1-24-50z"/><path class="mo" stroke-opacity=".45" d="M36 140q48-34 96 0"/>` + [[36, 140], [60, 127.2], [84, 123], [108, 127.2], [132, 140]].map(([x, y]) => `<circle class="mf" cx="${x}" cy="${y}" r="4.5"/>`).join(''),
+  atom: () => [0, 60, 120].map((a) => `<ellipse class="mo" cx="84" cy="88" rx="50" ry="19" transform="rotate(${a} 84 88)"/>`).join('') + `<circle class="mf" cx="84" cy="88" r="8"/><circle class="mf" cx="134" cy="88" r="5"/>`,
+  beads: () => ring(84, 78, 38, 15, 5) + `<path class="mo" d="M84 122v16"/><circle class="mf" cx="84" cy="146" r="7"/>`,
+};
 const WORK = [
-  { slug: 'mahsoul', name: 'Mahsoul', kind: 'Agri-tech platform', year: '2025',
+  { slug: 'mahsoul', name: 'Mahsoul', kind: 'Agri-tech platform', year: '2025', motif: 'sprout', field: ['#128a4b', '#128a4b'],
     desc: 'Farmers book agronomists and vets, pay, and order supplies in one place.',
     stack: ['Laravel', 'PHP', 'MySQL', 'Tailwind CSS'] },
-  { slug: 'lbaraka', name: 'LBaraka', kind: 'Solidarity app', year: '2026',
+  { slug: 'lbaraka', name: 'LBaraka', kind: 'Solidarity app', year: '2026', motif: 'qr', field: ['#c8552b', '#c8552b'],
     desc: 'Neighbours give, lend and rent everyday objects, with deposits and QR handovers.',
     stack: ['React Native', 'NestJS', 'PostgreSQL', 'MongoDB'] },
-  { slug: 'wealthwave', name: 'WealthWave', kind: 'Personal finance', year: '2025',
+  { slug: 'wealthwave', name: 'WealthWave', kind: 'Personal finance', year: '2025', motif: 'wave', field: ['#2d5cff', '#2d5cff'],
     desc: 'Budgets, savings goals and expense analytics for a calmer relationship with money.',
     stack: ['Node.js', 'Express', 'MySQL', 'Chart.js'] },
-  { slug: 'salat', name: 'Salat Times', kind: 'Linux desktop plugin', year: '2026',
+  { slug: 'salat', name: 'Salat Times', kind: 'Linux desktop plugin', year: '2026', motif: 'crescent', field: ['#6a50c7', '#6a50c7'],
     desc: 'Arabic-first prayer times for Omarchy: adhan, Hijri calendar, Qibla, all offline.',
     stack: ['QML', 'Quickshell', 'JavaScript'] },
-  { slug: 'quantum', name: 'Quantum VQE Lab', kind: 'Quantum chemistry', year: '2026',
+  { slug: 'quantum', name: 'Quantum VQE Lab', kind: 'Quantum chemistry', year: '2026', motif: 'atom', field: ['#c04a7f', '#c04a7f'],
     desc: 'Reproducible variational quantum eigensolver experiments, with a local lab to run them.',
     stack: ['Python', 'Qiskit', 'Streamlit'] },
-  { slug: 'athkar', name: 'Athkar Bot', kind: 'Discord bot', year: '2025',
+  { slug: 'athkar', name: 'Athkar Bot', kind: 'Discord bot', year: '2025', motif: 'beads', field: ['#0b0b0c', '#f4f4f2'], ink: ['#fbfbfa', '#0b0b0c'],
     desc: 'Daily Athkar reminders, Quranic verses and schedules for Discord communities.',
     stack: ['Python', 'discord.py'] },
 ];
 function work(p) {
   return (t) => {
-    const H = 148, L = 30, R = W - 30;
-    let b = `<rect class="panel" width="${W}" height="${H}" rx="14"/>`;
-    b += text(p.name, L, 56, F.bold, 34, 'fg', { ls: -0.03 });
-    b += arrow(R - 24, 28, 26, 's-accent');
-    b += text(p.kind, R - 36, 54, F.italic, 27, 'muted', { anchor: 'end' });
-    let size = 20;
-    while (width(p.desc, F.sans, size) > R - L) size -= 0.5;
-    b += text(p.desc, L, 92, F.sans, size, 'soft');
+    const k = t === 'dark' ? 1 : 0;
+    const H = 176, T = 168, L = T + 30, R = W - 30;
+    const ink = p.ink ? p.ink[k] : '#ffffff';
+    let b = `<defs><clipPath id="card"><rect width="${W}" height="${H}" rx="16"/></clipPath></defs>
+<g clip-path="url(#card)"><rect class="panel" width="${W}" height="${H}"/><rect width="${T}" height="${H}" fill="${p.field[k]}"/></g>
+<g class="motif">${MOTIF[p.motif]()}</g>`;
+    b += text(p.name, L, 54, F.bold, 34, 'fg', { ls: -0.03 });
+    b += arrow(R - 24, 26, 26, 's-accent');
+    b += text(p.kind, R - 36, 52, F.italic, 26, 'muted', { anchor: 'end' });
+    wrap(p.desc.split(' '), F.sans, 20, R - L).forEach((line, i) => {
+      b += text(line.join(' '), L, 90 + i * 27, F.sans, 20, 'soft');
+    });
     const st = [];
     p.stack.forEach((s, i) => {
       if (i) st.push({ t: '   ·   ', f: F.sans, size: 17, cls: 'faint' });
       st.push({ t: s, f: F.medium, size: 17, cls: 'muted' });
     });
-    b += runs(st, L, 124).svg;
-    b += text(p.year, R, 124, F.mono, 17, 'muted', { anchor: 'end' });
-    return svg(H, t, `${p.name}, ${p.kind.toLowerCase()}, ${p.year}. ${p.desc} Built with ${p.stack.join(', ')}.`, b);
+    b += runs(st, L, 152).svg;
+    b += text(p.year, R, 152, F.mono, 17, 'muted', { anchor: 'end' });
+    const css = `.mo{fill:none;stroke:${ink};stroke-width:3.500;stroke-linecap:round;stroke-linejoin:round}.mf{fill:${ink}}
+.motif{transform-box:fill-box;transform-origin:center;animation:motif .9s ${EASE} .15s both}@keyframes motif{from{opacity:0;transform:scale(.86)}}`;
+    return svg(H, t, `${p.name}, ${p.kind.toLowerCase()}, ${p.year}. ${p.desc} Built with ${p.stack.join(', ')}.`, b, css);
   };
 }
 
@@ -325,43 +362,42 @@ function stack(t) {
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 function year(data) {
   return (t) => {
-    const weeks = data.days;
-    const pitch = W / weeks.length;
+    const PX = 40, weeks = data.days;
+    const pitch = (W - PX * 2) / weeks.length;
     const counts = weeks.flat().map((d) => d[1]).filter(Boolean).sort((a, b) => a - b);
     const q = (p) => counts[Math.min(counts.length - 1, Math.floor(counts.length * p))] || 1;
     const cuts = [q(0.25), q(0.5), q(0.75)];
     const level = (v) => (v === 0 ? 0 : v <= cuts[0] ? 1 : v <= cuts[1] ? 2 : v <= cuts[2] ? 3 : 4);
-    const R = [1.5, 3, 4.200, 5.400, 6.600], O = [1, 0.5, 0.68, 0.85, 1];
+    const R = [1.400, 2.900, 4, 5.100, 6.200], O = [0.38, 0.62, 0.76, 0.9, 1];
 
     const big = runs([
-      { t: data.total.toLocaleString('en-US'), f: F.bold, size: 76, cls: 'fg', ls: -0.04 },
-      { t: '  contributions', f: F.italic, size: 44, cls: 'fg' },
-    ], -3, 70);
-    let b = `<g class="in">${big.svg}</g>`;
-    b += `<g class="in" style="--i:1">${text(`in the last twelve months, across ${data.repos} public repositories and ${data.stars} stars.`, 0, 110, F.sans, 21, 'muted')}</g>`;
+      { t: data.total.toLocaleString('en-US'), f: F.bold, size: 84, cls: 'w', ls: -0.04 },
+      { t: '  contributions', f: F.italic, size: 48, cls: 'w' },
+    ], PX - 3, 112);
+    const top = 196, H = top + pitch * 7 + 76;
+    let b = `<rect width="${W}" height="${n(H)}" rx="22" fill="#2d5cff"/><g class="in">${big.svg}</g>`;
+    b += `<g class="in" style="--i:1">${text(`in the last twelve months, across ${data.repos} public repositories and ${data.stars} stars.`, PX, 152, F.sans, 21, 'w', { extra: 'fill-opacity=".86"' })}</g>`;
 
-    const top = 150;
     let lastMonth = -1, labels = '';
     weeks.forEach((wk, x) => {
-      const cx = n(pitch * x + pitch / 2);
+      const cx = n(PX + pitch * x + pitch / 2);
       b += `<g class="col" style="animation-delay:${n(0.25 + x * 0.014)}s">`;
       wk.forEach(([date, v]) => {
         const dow = new Date(date + 'T00:00:00Z').getUTCDay();
         const l = level(v);
-        b += `<circle cx="${cx}" cy="${n(top + dow * pitch + pitch / 2)}" r="${R[l]}" class="${l ? 'accent' : 'faint'}"${l ? ` fill-opacity="${O[l]}"` : ' fill-opacity=".45"'}/>`;
+        b += `<circle class="w" cx="${cx}" cy="${n(top + dow * pitch + pitch / 2)}" r="${R[l]}" fill-opacity="${O[l]}"/>`;
       });
       b += `</g>`;
-      const m = new Date(wk[0][0] + 'T00:00:00Z').getUTCMonth();
+      const first = new Date(wk[0][0] + 'T00:00:00Z');
+      const m = first.getUTCMonth();
       if (m !== lastMonth && x < weeks.length - 2) {
-        if (lastMonth !== -1 || new Date(wk[0][0] + 'T00:00:00Z').getUTCDate() <= 7) {
-          labels += text(MONTHS[m], pitch * x + 2, top + pitch * 7 + 28, F.sans, 16, 'muted');
-        }
+        if (lastMonth !== -1 || first.getUTCDate() <= 7) labels += text(MONTHS[m], PX + pitch * x + 2, top + pitch * 7 + 30, F.sans, 16, 'w', { extra: 'fill-opacity=".82"' });
         lastMonth = m;
       }
     });
     b += labels;
-    const css = `.col{animation:pop .5s ${EASE} both}@keyframes pop{from{opacity:0;transform:translateY(8px)}}`;
-    return svg(top + pitch * 7 + 40, t, `${data.total} contributions in the last twelve months, across ${data.repos} public repositories and ${data.stars} stars. Each dot is a day; larger dots are busier days.`, b, css);
+    const css = `.w{fill:#fff}.col{animation:pop .5s ${EASE} both}@keyframes pop{from{opacity:0;transform:translateY(8px)}}`;
+    return svg(n(H), t, `${data.total} contributions in the last twelve months, across ${data.repos} public repositories and ${data.stars} stars. Each dot is a day; larger dots are busier days.`, b, css);
   };
 }
 
@@ -389,39 +425,33 @@ ${arrow(pad + tw + 10, 16, 20, primary ? 's-btnfg' : 's-fg')}`;
 }
 
 // ---- the close ------------------------------------------------------------
+// Inverted against the page: an ink field on light, a paper field on dark.
 function close(t) {
-  const size = 62;
-  let b = `<g class="in">${text('Let’s build something', -3, 70, F.bold, size, 'fg', { ls: -0.04 })}</g>`;
+  const H = 452, PX = 40, size = 62;
+  let b = `<defs><clipPath id="card"><rect width="${W}" height="${H}" rx="22"/></clipPath></defs><g clip-path="url(#card)"><rect class="btn" width="${W}" height="${H}"/>`;
+  b += `<g class="in">${text('Let’s build something', PX - 3, 100, F.bold, size, 'btnfg', { ls: -0.04 })}</g>`;
   const l2 = runs([
-    { t: 'worth ', f: F.bold, size, cls: 'fg', ls: -0.04 },
-    { t: 'shipping', f: F.italic, size: size * 1.14, cls: 'fg', ls: -0.01 },
-    { t: '.', f: F.bold, size, cls: 'accent' },
-  ], -3, 142);
+    { t: 'worth ', f: F.bold, size, cls: 'btnfg', ls: -0.04 },
+    { t: 'shipping', f: F.italic, size: size * 1.14, cls: 'btnfg', ls: -0.01 },
+    { t: '.', f: F.bold, size, cls: 'blue' },
+  ], PX - 3, 172);
   b += `<g class="in" style="--i:1">${l2.svg}</g>`;
-  b += `<g class="note" transform="rotate(-4 700 110)">${text('usually a reply', 852, 100, F.hand, 29, 'muted', { anchor: 'end' })}${text('within 24 hours', 852, 130, F.hand, 29, 'muted', { anchor: 'end' })}</g>`;
-  const css = `.note{animation:fade .6s ease-out .5s both}@keyframes fade{from{opacity:0}}`;
-  return svg(170, t, 'Let’s build something worth shipping. Usually a reply within 24 hours.', b, css);
-}
-function footer(t, c) {
-  const size = 286;
-  const w = width('Baâlla', F.italic, size, -0.02);
-  const sq = 38, total = w + 14 + sq, x = (W - total) / 2;
-  const b = `<defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r="1.1" fill="${c.dot}" fill-opacity="${c.dotO}"/></pattern></defs>
-<rect width="${W}" height="290" fill="url(#dots)"/>
-${text('Baâlla', x, 232, F.italic, size, 'fg', { ls: -0.02 })}
-<rect class="accent" x="${n(x + w + 14)}" y="${232 - sq}" width="${sq}" height="${sq}"/>`;
-  return svg(290, t, 'Baâlla.', b);
+  b += `<g class="note" transform="rotate(-4 720 110)">${text('usually a reply', W - PX, 104, F.hand, 30, 'btnfg', { anchor: 'end', extra: 'fill-opacity=".72"' })}${text('within 24 hours', W - PX, 136, F.hand, 30, 'btnfg', { anchor: 'end', extra: 'fill-opacity=".72"' })}</g>`;
+  const ws = 330;
+  const ww = width('Baâlla', F.italic, ws, -0.02), sq = 40, total = ww + 16 + sq, x = (W - total) / 2;
+  b += `<g class="in" style="--i:3">${text('Baâlla', x, H + 38, F.italic, ws, 'btnfg', { ls: -0.02, extra: 'fill-opacity=".16"' })}<rect class="blue" x="${n(x + ww + 16)}" y="${H - sq - 28}" width="${sq}" height="${sq}"/></g></g>`;
+  const css = `.blue{fill:#2d5cff}.note{animation:fade .6s ease-out .5s both}@keyframes fade{from{opacity:0}}`;
+  return svg(H, t, 'Let’s build something worth shipping. Usually a reply within 24 hours. Baâlla.', b, css);
 }
 
 // ---- run ------------------------------------------------------------------
 const data = await loadData();
-emit('hero', hero);
-for (const [k, [a, i]] of Object.entries(HEADS)) emit(`head-${k}`, heading(a, i));
+emit('hero', hero(data));
+for (const [k, [a, i, note]] of Object.entries(HEADS)) emit(`head-${k}`, heading(a, i, note));
 for (const p of WORK) emit(`work-${p.slug}`, work(p));
 emit('path', path);
 emit('stack', stack);
 emit('year', year(data));
 for (const [k, label, primary] of BUTTONS) emit(`btn-${k}`, button(label, primary));
 emit('close', close);
-emit('footer', footer);
 console.log(`Built assets for ${data.total} contributions, ${data.repos} repositories, ${data.stars} stars.`);

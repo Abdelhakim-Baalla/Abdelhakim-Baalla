@@ -2,7 +2,7 @@
 <title>baalla.tech</title>
 <style>
 .fg{fill:#f4f4f2}.soft{fill:#d3d3d6}.muted{fill:#a1a1a8}.faint{fill:#6f6f77}.accent{fill:#8fa7ff}
-.panel{fill:#161a22}.green{fill:#4ade80}.btn{fill:#f4f4f2}.btnfg{fill:#0b0b0c}.btn2{fill:#1c212b}
+.panel{fill:#161a22}.green{fill:#4ade80}.btn{fill:#f4f4f2}.btnfg{fill:#0b0b0c}.btn2{fill:#1c212b}.paper{fill:#12161d}.strip{fill:#1a1f29}
 .s-accent{stroke:#8fa7ff}.s-muted{stroke:#a1a1a8}.s-fg{stroke:#f4f4f2}.s-line{stroke:#3a3f4a}.s-btnfg{stroke:#0b0b0c}
 .ico{fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
 .in{animation:rise .8s cubic-bezier(0.16,1,0.3,1) both;animation-delay:calc(var(--i,0)*80ms)}
