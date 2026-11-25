@@ -13,7 +13,7 @@ I turn loose ideas into fast, considered products, from the first schema to the 
 <a href="https://www.youtube.com/@Dinocrafting"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-youtube-dark.svg"><img src="assets/btn-youtube-light.svg" alt="YouTube: Dinocrafting" height="36"></picture></a>
 </p>
 
-[Browse the project catalogue and live demos](PROJETS.md)
+[Browse the project catalogue and live demos](https://baalla-projets.abdelhakimbaalla50.workers.dev/) · [Markdown index](PROJETS.md)
 
 On this page: [now](#now) · [work](#work) · [path](#path) · [stack](#stack) · [certifications](#proof) · [services](#help) · [the year](#year) · [contact](#contact)
 

@@ -48,7 +48,7 @@ ${btn('https://x.com/Abdelhakim99891', 'x', 'X')}
 ${btn('https://www.youtube.com/@Dinocrafting', 'youtube', 'YouTube: Dinocrafting')}
 </p>
 
-[Browse the project catalogue and live demos](PROJETS.md)
+[Browse the project catalogue and live demos](https://baalla-projets.abdelhakimbaalla50.workers.dev/) · [Markdown index](PROJETS.md)
 
 On this page: [now](#now) · [work](#work) · [path](#path) · [stack](#stack) · [certifications](#proof) · [services](#help) · [the year](#year) · [contact](#contact)
 

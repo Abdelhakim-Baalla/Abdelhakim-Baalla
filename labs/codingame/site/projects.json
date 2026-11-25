@@ -1,0 +1,255 @@
+[
+  {
+    "id": "1d-spreadsheet",
+    "title": "1D Spreadsheet",
+    "description": "Évaluateur de tableur à une dimension. La résolution récursive mémoïse les cellules référencées par les formules.",
+    "rev": "038ef93aeb4da92f6275ca215d9cf86c10c84e6c",
+    "cases": [
+      {
+        "name": "example",
+        "input": "2\nVALUE 3 _\nADD $0 4",
+        "expected": "3\n7"
+      },
+      {
+        "name": "forward ref",
+        "input": "3\nADD $1 1\nMULT $2 2\nVALUE 5 _",
+        "expected": "11\n10\n5"
+      },
+      {
+        "name": "sub negative",
+        "input": "2\nSUB 5 8\nSUB $0 -3",
+        "expected": "-3\n0"
+      },
+      {
+        "name": "mult negative",
+        "input": "3\nMULT -4 5\nMULT $0 -1\nADD $1 $0",
+        "expected": "-20\n20\n0"
+      },
+      {
+        "name": "single cell",
+        "input": "1\nVALUE -10000 _",
+        "expected": "-10000"
+      },
+      {
+        "name": "zero",
+        "input": "2\nSUB 0 0\nMULT $0 -1",
+        "expected": "0\n0"
+      },
+      {
+        "name": "underscore",
+        "input": "2\nVALUE 7 _\nADD $0 _",
+        "expected": "7\n7"
+      },
+      {
+        "name": "bounds",
+        "input": "2\nADD 10000 10000\nMULT 10000 -10000",
+        "expected": "20000\n-100000000"
+      },
+      {
+        "name": "reverse chain",
+        "input": "5\nADD $1 1\nADD $2 1\nADD $3 1\nADD $4 1\nVALUE 1 _",
+        "expected": "5\n4\n3\n2\n1"
+      },
+      {
+        "name": "deep chain",
+        "input": "100\nADD $1 1\nADD $2 1\nADD $3 1\nADD $4 1\nADD $5 1\nADD $6 1\nADD $7 1\nADD $8 1\nADD $9 1\nADD $10 1\nADD $11 1\nADD $12 1\nADD $13 1\nADD $14 1\nADD $15 1\nADD $16 1\nADD $17 1\nADD $18 1\nADD $19 1\nADD $20 1\nADD $21 1\nADD $22 1\nADD $23 1\nADD $24 1\nADD $25 1\nADD $26 1\nADD $27 1\nADD $28 1\nADD $29 1\nADD $30 1\nADD $31 1\nADD $32 1\nADD $33 1\nADD $34 1\nADD $35 1\nADD $36 1\nADD $37 1\nADD $38 1\nADD $39 1\nADD $40 1\nADD $41 1\nADD $42 1\nADD $43 1\nADD $44 1\nADD $45 1\nADD $46 1\nADD $47 1\nADD $48 1\nADD $49 1\nADD $50 1\nADD $51 1\nADD $52 1\nADD $53 1\nADD $54 1\nADD $55 1\nADD $56 1\nADD $57 1\nADD $58 1\nADD $59 1\nADD $60 1\nADD $61 1\nADD $62 1\nADD $63 1\nADD $64 1\nADD $65 1\nADD $66 1\nADD $67 1\nADD $68 1\nADD $69 1\nADD $70 1\nADD $71 1\nADD $72 1\nADD $73 1\nADD $74 1\nADD $75 1\nADD $76 1\nADD $77 1\nADD $78 1\nADD $79 1\nADD $80 1\nADD $81 1\nADD $82 1\nADD $83 1\nADD $84 1\nADD $85 1\nADD $86 1\nADD $87 1\nADD $88 1\nADD $89 1\nADD $90 1\nADD $91 1\nADD $92 1\nADD $93 1\nADD $94 1\nADD $95 1\nADD $96 1\nADD $97 1\nADD $98 1\nADD $99 1\nVALUE 0 _",
+        "expected": "99\n98\n97\n96\n95\n94\n93\n92\n91\n90\n89\n88\n87\n86\n85\n84\n83\n82\n81\n80\n79\n78\n77\n76\n75\n74\n73\n72\n71\n70\n69\n68\n67\n66\n65\n64\n63\n62\n61\n60\n59\n58\n57\n56\n55\n54\n53\n52\n51\n50\n49\n48\n47\n46\n45\n44\n43\n42\n41\n40\n39\n38\n37\n36\n35\n34\n33\n32\n31\n30\n29\n28\n27\n26\n25\n24\n23\n22\n21\n20\n19\n18\n17\n16\n15\n14\n13\n12\n11\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0"
+      }
+    ],
+    "interactive": false
+  },
+  {
+    "id": "1000000000d-world",
+    "title": "1000000000D World",
+    "description": "Produit scalaire de vecteurs compressés par plages, avec solutions JavaScript, Python et PHP et jeux de tests partagés.",
+    "rev": "c02de79bc0a6146f46e161149763c22c8b3fd7be",
+    "cases": [
+      {
+        "name": "example",
+        "input": "50000001 1 49999999 -1\n50000000 1 50000000 1",
+        "expected": "2"
+      },
+      {
+        "name": "single run",
+        "input": "1000000000 3\n1000000000 4",
+        "expected": "12000000000"
+      },
+      {
+        "name": "cancel",
+        "input": "5 1 5 -1\n5 1 5 1",
+        "expected": "0"
+      },
+      {
+        "name": "mixed runs",
+        "input": "3 2 2 3\n4 1 1 5",
+        "expected": "24"
+      },
+      {
+        "name": "negative values",
+        "input": "2 -3 3 4\n4 2 1 -1",
+        "expected": "0"
+      },
+      {
+        "name": "big result",
+        "input": "1000000000 1000\n1000000000 1",
+        "expected": "1000000000000"
+      },
+      {
+        "name": "asymmetric",
+        "input": "1 5 999999999 0\n1000000000 7",
+        "expected": "35"
+      },
+      {
+        "name": "zeros",
+        "input": "1000000000 0\n1000000000 5",
+        "expected": "0"
+      },
+      {
+        "name": "many runs",
+        "input": "1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 1 -1 1 0 1 1 1 2 1 3 999999900 0\n1000000000 3",
+        "expected": "300"
+      },
+      {
+        "name": "split runs",
+        "input": "1000000000 -7\n1 3 999999999 0",
+        "expected": "-21"
+      }
+    ],
+    "interactive": false
+  },
+  {
+    "id": "CGFunge-interpreter",
+    "title": "CGFunge Interpreter",
+    "description": "Interpréteur CGFunge en JavaScript et Python. Les cas de test illustrent le déplacement du pointeur dans une grille d’instructions.",
+    "rev": "3c5ef3fc74fa5a362716d0e47829b43f4a6b5d70",
+    "cases": [
+      {
+        "name": "math",
+        "input": "1\n2419+*+IE",
+        "expected": "42"
+      },
+      {
+        "name": "sub",
+        "input": "1\n52-IE",
+        "expected": "3"
+      },
+      {
+        "name": "swap",
+        "input": "1\n23XIE",
+        "expected": "2"
+      },
+      {
+        "name": "dup",
+        "input": "1\n5DIIE",
+        "expected": "55"
+      },
+      {
+        "name": "pop",
+        "input": "1\n12PIE",
+        "expected": "1"
+      },
+      {
+        "name": "char",
+        "input": "1\n\"iH\"CCE",
+        "expected": "Hi"
+      },
+      {
+        "name": "down",
+        "input": "2\nv\n>1IE",
+        "expected": "1"
+      },
+      {
+        "name": "string",
+        "input": "1\n\"1+\"IIE",
+        "expected": "4349"
+      },
+      {
+        "name": "if right",
+        "input": "1\n0_1IE",
+        "expected": "1"
+      },
+      {
+        "name": "if down",
+        "input": "2\n0|\n >2IE",
+        "expected": "2"
+      },
+      {
+        "name": "string spaces",
+        "input": "1\n\"a b\"CCCE",
+        "expected": "b a"
+      },
+      {
+        "name": "empty string",
+        "input": "1\n\"\"5IE",
+        "expected": "5"
+      },
+      {
+        "name": "multi output",
+        "input": "1\n1I2I3IE",
+        "expected": "123"
+      },
+      {
+        "name": "dup add",
+        "input": "1\n3D+IE",
+        "expected": "6"
+      }
+    ],
+    "interactive": false
+  },
+  {
+    "id": "shadows-of-the-knight-1",
+    "title": "Shadows of the Knight",
+    "description": "Solveur JavaScript de recherche binaire en deux dimensions, accompagné d’un simulateur de partie.",
+    "rev": "595d720505a0579f202fa566140846178661f539",
+    "cases": [
+      {
+        "name": "Réduire la zone de recherche",
+        "input": "10 10\n6\n5 5\nUR\nL",
+        "expected": "7 2\n6 2"
+      }
+    ],
+    "interactive": true
+  },
+  {
+    "id": "dont-panic",
+    "title": "Don’t Panic",
+    "description": "Solveur JavaScript du puzzle Don’t Panic. La position des ascenseurs et de la sortie guide la décision à chaque étage.",
+    "rev": "43fe979e4f6ab0a3e831a7599176999e03766577",
+    "cases": [
+      {
+        "name": "Guider un clone vers la sortie",
+        "input": "1 10 50 0 8 1 0 0\n0 3 LEFT\n0 3 RIGHT",
+        "expected": "BLOCK\nWAIT"
+      }
+    ],
+    "interactive": true
+  },
+  {
+    "id": "mars-lander",
+    "title": "Mars Lander",
+    "description": "Contrôleur JavaScript pour Mars Lander sur CodinGame. Le relief et la vitesse interviennent dans le choix de l’angle et de la poussée.",
+    "rev": "cb1a7e832799cf3136c550c2a9bcb5f848d5b3f9",
+    "cases": [
+      {
+        "name": "Freiner au-dessus de la zone plane",
+        "input": "2\n0 0\n6999 0\n3500 100 0 -38 150 0 3",
+        "expected": "0 4"
+      }
+    ],
+    "interactive": true
+  },
+  {
+    "id": "code-vs-zombies",
+    "title": "Code vs Zombies",
+    "description": "Solveur JavaScript du défi CodinGame Code vs Zombies. La décision à chaque tour utilise les positions des humains et des zombies.",
+    "rev": "5efada0bb756c21ef83ca1ee5495f1a3db3f5e00",
+    "cases": [
+      {
+        "name": "Choisir une destination",
+        "input": "0 0\n1\n0 1000 0\n1\n0 2000 0 1600 0",
+        "expected": "1000 0"
+      }
+    ],
+    "interactive": true
+  }
+]
