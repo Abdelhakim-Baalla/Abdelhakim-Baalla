@@ -13,6 +13,8 @@ I turn loose ideas into fast, considered products, from the first schema to the 
 <a href="https://www.youtube.com/@Dinocrafting"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-youtube-dark.svg"><img src="assets/btn-youtube-light.svg" alt="YouTube: Dinocrafting" height="36"></picture></a>
 </p>
 
+[Browse the project catalogue and live demos](PROJETS.md)
+
 On this page: [now](#now) · [work](#work) · [path](#path) · [stack](#stack) · [certifications](#proof) · [services](#help) · [the year](#year) · [contact](#contact)
 
 <br>
@@ -34,7 +36,7 @@ On this page: [now](#now) · [work](#work) · [path](#path) · [stack](#stack) �
 <p><a href="https://github.com/Abdelhakim-Baalla/quantum-vqe-chemistry-lab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-quantum-dark.svg"><img src="assets/work-quantum-light.svg" alt="Quantum VQE Lab, reproducible variational quantum eigensolver experiments for quantum chemistry. Python, Qiskit, Streamlit. 2026." width="100%"></picture></a></p>
 <p><a href="https://github.com/Abdelhakim-Baalla/Athkar-bot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/work-athkar-dark.svg"><img src="assets/work-athkar-light.svg" alt="Athkar Bot, a Discord bot for daily Athkar reminders, Quranic verses and schedules. Python, discord.py. 2025." width="100%"></picture></a></p>
 
-There is more in [the archive](https://github.com/Abdelhakim-Baalla?tab=repositories): Minecraft mods, Arduino sketches, a Godot rogue-lite, and a growing shelf of CodinGame solvers.
+[Explore the full project catalogue](PROJETS.md) for live demos, architecture diagrams, desktop tools, Arduino projects and CodinGame solvers.
 
 <br>
 <a name="path"></a>

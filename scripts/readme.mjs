@@ -48,6 +48,8 @@ ${btn('https://x.com/Abdelhakim99891', 'x', 'X')}
 ${btn('https://www.youtube.com/@Dinocrafting', 'youtube', 'YouTube: Dinocrafting')}
 </p>
 
+[Browse the project catalogue and live demos](PROJETS.md)
+
 On this page: [now](#now) · [work](#work) · [path](#path) · [stack](#stack) · [certifications](#proof) · [services](#help) · [the year](#year) · [contact](#contact)
 
 <br>
@@ -64,7 +66,7 @@ ${pic('head-work', 'Things I’ve built.')}
 
 ${work.map(([repo, slug, alt]) => `<p>${link(gh(repo), `work-${slug}`, alt)}</p>`).join('\n')}
 
-There is more in [the archive](https://github.com/Abdelhakim-Baalla?tab=repositories): Minecraft mods, Arduino sketches, a Godot rogue-lite, and a growing shelf of CodinGame solvers.
+[Explore the full project catalogue](PROJETS.md) for live demos, architecture diagrams, desktop tools, Arduino projects and CodinGame solvers.
 
 <br>
 <a name="path"></a>
